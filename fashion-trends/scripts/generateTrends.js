@@ -89,6 +89,8 @@ const TREND_SCORE_THRESHOLD = Number(process.env.TREND_SCORE_THRESHOLD) ?? 0;
 const IMAGES_PER_TREND = Math.min(5, Math.max(3, Number(process.env.IMAGES_PER_TREND) || 4));
 const DAYS_AGO = 90;
 const GEO = 'US';
+const BATCH_SIZE = 8;
+const BATCH_DELAY_MS = 2500;
 
 const SEASON_KEYWORDS = {
   summer: ['summer', 'linen', 'sundress', 'beach', 'resort'],
@@ -192,22 +194,39 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
 async function main() {
   const accessKey = process.env.UNSPLASH_ACCESS_KEY || '';
 
-  console.log('Fetching Google Trends for', KEYWORDS.length, 'fashion keywords...');
-  const metricsList = await Promise.all(KEYWORDS.map((kw) => fetchTrendMetrics(kw)));
+  // Fetch Google Trends in batches to avoid rate limiting (more keywords return real data)
+  const metricsList = [];
+  for (let i = 0; i < KEYWORDS.length; i += BATCH_SIZE) {
+    const batch = KEYWORDS.slice(i, i + BATCH_SIZE);
+    console.log('Fetching batch', Math.floor(i / BATCH_SIZE) + 1, '—', batch.length, 'keywords');
+    const results = await Promise.all(batch.map((kw) => fetchTrendMetrics(kw)));
+    metricsList.push(...results);
+    if (i + BATCH_SIZE < KEYWORDS.length) {
+      await new Promise((r) => setTimeout(r, BATCH_DELAY_MS));
+    }
+  }
 
-  const filtered = metricsList
+  // Include ALL keywords in output (sort by score desc so strongest first)
+  const sorted = metricsList
     .filter((m) => m.score >= TREND_SCORE_THRESHOLD)
     .sort((a, b) => b.score - a.score);
 
-  console.log('Trends above threshold:', filtered.length);
+  // If we got very few from Trends (rate limit), still add all keywords with score 0 so list is full
+  const toOutput = sorted.length >= 20 ? sorted : (() => {
+    const byKw = new Map(sorted.map((m) => [m.keyword, m]));
+    return KEYWORDS.map((kw) => byKw.get(kw) || { keyword: kw, averageInterest: 0, trendSlope: 0, score: 0 })
+      .sort((a, b) => b.score - a.score);
+  })();
+
+  console.log('Trends to output:', toOutput.length);
 
   const imagesByKeyword = {};
-  for (const m of filtered) {
+  for (const m of toOutput) {
     imagesByKeyword[m.keyword] = await fetchImagesForKeyword(m.keyword, IMAGES_PER_TREND, accessKey);
-    await new Promise((r) => setTimeout(r, 200));
+    await new Promise((r) => setTimeout(r, 180));
   }
 
-  const trends = filtered.map((m) => ({
+  const trends = toOutput.map((m) => ({
     name: m.keyword,
     score: m.score,
     averageInterest: m.averageInterest,
