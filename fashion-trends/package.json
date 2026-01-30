@@ -1,0 +1,15 @@
+{
+  "name": "fashion-trends-static",
+  "version": "1.0.0",
+  "description": "Generate static fashion trends JSON for GitHub Pages (no server)",
+  "private": true,
+  "scripts": {
+    "generate": "node scripts/generateTrends.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "google-trends-api": "^4.9.2"
+  }
+}
