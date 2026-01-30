@@ -33,9 +33,13 @@ jobs:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: npm run generate
 
+      - name: List generated data files
+        run: ls -la fashion-trends/data/
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add fashion-trends/data/*.json
+          git add fashion-trends/data/
+          git status
           git diff --staged --quiet || (git commit -m "chore: update trends data (all countries) [skip ci]" && git push)
