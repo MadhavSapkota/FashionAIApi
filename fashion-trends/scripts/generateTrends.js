@@ -200,16 +200,57 @@ async function main() {
     season: getSeason(m.keyword),
   }));
 
-  const payload = {
-    generatedAt: new Date().toISOString(),
+  const generatedAt = new Date().toISOString();
+  const basePayload = {
+    generatedAt,
     updateFrequency: '6 hours',
-    locations: LOCATIONS.map((l) => ({ code: l.code, name: l.name })),
-    trends,
   };
 
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(payload, null, 2), 'utf8');
-  console.log('Wrote', OUTPUT_FILE);
+
+  // 1) Full file: all trends, all locations (data increased: 30 keywords × 10 countries)
+  const fullPayload = {
+    ...basePayload,
+    locations: LOCATIONS.map((l) => ({ code: l.code, name: l.name })),
+    trends,
+  };
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(fullPayload, null, 2), 'utf8');
+  console.log('Wrote', OUTPUT_FILE, '(trends count:', trends.length, ')');
+
+  // 2) Per-country files: query by country via URL (e.g. trends-US.json)
+  const baseUrl = 'https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data';
+  const byCountry = [];
+  for (const loc of LOCATIONS) {
+    const countryTrends = trends.filter((t) => t.locationCode === loc.code);
+    const countryPayload = {
+      ...basePayload,
+      location: loc.name,
+      locationCode: loc.code,
+      trends: countryTrends,
+    };
+    const filename = `trends-${loc.code}.json`;
+    fs.writeFileSync(
+      path.join(DATA_DIR, filename),
+      JSON.stringify(countryPayload, null, 2),
+      'utf8'
+    );
+    byCountry.push({ code: loc.code, name: loc.name, file: filename, url: `${baseUrl}/${filename}` });
+    console.log('Wrote', filename);
+  }
+
+  // 3) Index: list of countries and URLs for query-by-country
+  const indexPayload = {
+    generatedAt,
+    updateFrequency: '6 hours',
+    allTrendsUrl: `${baseUrl}/trends.json`,
+    byCountry,
+  };
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'index.json'),
+    JSON.stringify(indexPayload, null, 2),
+    'utf8'
+  );
+  console.log('Wrote index.json');
 }
 
 main().catch((err) => {
