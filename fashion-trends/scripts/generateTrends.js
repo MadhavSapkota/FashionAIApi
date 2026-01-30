@@ -206,19 +206,12 @@ async function main() {
     }
   }
 
-  // Include ALL keywords in output (sort by score desc so strongest first)
-  const sorted = metricsList
-    .filter((m) => m.score >= TREND_SCORE_THRESHOLD)
+  // ALWAYS output every keyword: merge Google data with full list, sort by score desc
+  const byKw = new Map(metricsList.map((m) => [m.keyword, m]));
+  const toOutput = KEYWORDS.map((kw) => byKw.get(kw) || { keyword: kw, averageInterest: 0, trendSlope: 0, score: 0 })
     .sort((a, b) => b.score - a.score);
 
-  // If we got very few from Trends (rate limit), still add all keywords with score 0 so list is full
-  const toOutput = sorted.length >= 20 ? sorted : (() => {
-    const byKw = new Map(sorted.map((m) => [m.keyword, m]));
-    return KEYWORDS.map((kw) => byKw.get(kw) || { keyword: kw, averageInterest: 0, trendSlope: 0, score: 0 })
-      .sort((a, b) => b.score - a.score);
-  })();
-
-  console.log('Trends to output:', toOutput.length);
+  console.log('Trends to output:', toOutput.length, '(with score > 0:', toOutput.filter((m) => m.score > 0).length, ')');
 
   const imagesByKeyword = {};
   for (const m of toOutput) {
