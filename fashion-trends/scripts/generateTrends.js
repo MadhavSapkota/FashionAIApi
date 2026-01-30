@@ -26,14 +26,42 @@ const KEYWORDS = [
   'maxi skirt outfit',
   'blazer dress',
   'layered necklace outfit',
+  'sustainable fashion',
+  'vintage dress',
+  'mom jeans',
+  'cropped jacket',
+  'slip dress',
+  'tennis skirt',
+  'ballet core fashion',
+  'coastal grandmother style',
+  'capsule wardrobe',
+  'statement earrings',
+  'leather jacket',
+  'denim skirt',
+  'knit sweater',
+  'wide leg pants',
+  'midi dress',
 ];
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const OUTPUT_FILE = path.join(DATA_DIR, 'trends.json');
-const TREND_SCORE_THRESHOLD = Number(process.env.TREND_SCORE_THRESHOLD) || 10;
+const TREND_SCORE_THRESHOLD = Number(process.env.TREND_SCORE_THRESHOLD) ?? 0;
 const IMAGES_PER_TREND = Math.min(5, Math.max(3, Number(process.env.IMAGES_PER_TREND) || 4));
-const GEO = 'US';
 const DAYS_AGO = 90;
+
+// Google Trends by location (geo code: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+const LOCATIONS = [
+  { code: 'US', name: 'United States' },
+  { code: 'GB', name: 'United Kingdom' },
+  { code: 'IN', name: 'India' },
+  { code: 'AU', name: 'Australia' },
+  { code: 'CA', name: 'Canada' },
+  { code: 'DE', name: 'Germany' },
+  { code: 'FR', name: 'France' },
+  { code: 'BR', name: 'Brazil' },
+  { code: 'JP', name: 'Japan' },
+  { code: 'NG', name: 'Nigeria' },
+];
 
 const SEASON_KEYWORDS = {
   summer: ['summer', 'linen', 'sundress', 'beach', 'resort'],
@@ -61,15 +89,15 @@ function getWhyTrending(keyword, score) {
 }
 
 /**
- * Fetch interest-over-time from Google Trends; return { averageInterest, trendSlope, score }.
+ * Fetch interest-over-time from Google Trends for a given location; return { averageInterest, trendSlope, score }.
  */
-function fetchTrendMetrics(keyword) {
+function fetchTrendMetrics(keyword, geo = 'US') {
   const endTime = new Date();
   const startTime = new Date();
   startTime.setDate(startTime.getDate() - DAYS_AGO);
 
   return googleTrends
-    .interestOverTime({ keyword, startTime, endTime, geo: GEO })
+    .interestOverTime({ keyword, startTime, endTime, geo })
     .then((res) => {
       const data = JSON.parse(res);
       const timeline = data?.default?.timelineData || data?.default?.timeline_data || [];
@@ -137,33 +165,45 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
 async function main() {
   const accessKey = process.env.UNSPLASH_ACCESS_KEY || '';
 
-  console.log('Fetching Google Trends for', KEYWORDS.length, 'keywords...');
-  const metricsList = await Promise.all(KEYWORDS.map((kw) => fetchTrendMetrics(kw)));
+  const allMetrics = [];
+  for (const loc of LOCATIONS) {
+    console.log('Fetching Google Trends for', loc.name, '...');
+    const list = await Promise.all(
+      KEYWORDS.map((kw) => fetchTrendMetrics(kw, loc.code))
+    );
+    list.forEach((m) => allMetrics.push({ ...m, location: loc.name, locationCode: loc.code }));
+    await new Promise((r) => setTimeout(r, 500));
+  }
 
-  const filtered = metricsList
+  const filtered = allMetrics
     .filter((m) => m.score >= TREND_SCORE_THRESHOLD)
     .sort((a, b) => b.score - a.score);
 
   console.log('Trends above threshold:', filtered.length);
 
-  const trends = [];
-  for (const m of filtered) {
-    const images = await fetchImagesForKeyword(m.keyword, IMAGES_PER_TREND, accessKey);
-    trends.push({
-      name: m.keyword,
-      score: m.score,
-      averageInterest: m.averageInterest,
-      trendSlope: m.trendSlope,
-      images,
-      whyTrending: getWhyTrending(m.keyword, m.score),
-      season: getSeason(m.keyword),
-    });
+  const imagesByKeyword = {};
+  const uniqueKeywords = [...new Set(filtered.map((m) => m.keyword))];
+  for (const kw of uniqueKeywords) {
+    imagesByKeyword[kw] = await fetchImagesForKeyword(kw, IMAGES_PER_TREND, accessKey);
     await new Promise((r) => setTimeout(r, 200));
   }
+
+  const trends = filtered.map((m) => ({
+    name: m.keyword,
+    score: m.score,
+    averageInterest: m.averageInterest,
+    trendSlope: m.trendSlope,
+    location: m.location,
+    locationCode: m.locationCode,
+    images: imagesByKeyword[m.keyword] || [],
+    whyTrending: getWhyTrending(m.keyword, m.score),
+    season: getSeason(m.keyword),
+  }));
 
   const payload = {
     generatedAt: new Date().toISOString(),
     updateFrequency: '6 hours',
+    locations: LOCATIONS.map((l) => ({ code: l.code, name: l.name })),
     trends,
   };
 
