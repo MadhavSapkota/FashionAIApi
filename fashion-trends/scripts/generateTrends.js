@@ -41,6 +41,46 @@ const KEYWORDS = [
   'knit sweater',
   'wide leg pants',
   'midi dress',
+  'trending outfits 2025',
+  'minimalist fashion',
+  'oversized fit',
+  'tailored trousers',
+  'bomber jacket',
+  'trench coat outfit',
+  'satin dress',
+  'ribbed knit',
+  'pleated skirt',
+  'platform shoes',
+  'mary jane shoes',
+  'bucket hat',
+  'chain bag',
+  'crossbody bag',
+  'gold jewelry',
+  'pearl necklace',
+  'sheer top',
+  'corset top',
+  'cargo skirt',
+  'flare pants',
+  'straight leg jeans',
+  'cropped cardigan',
+  'vest outfit',
+  'monochrome outfit',
+  'color block fashion',
+  'print mixing',
+  'animal print',
+  'striped shirt',
+  'graphic tee outfit',
+  'hoodie dress',
+  'joggers outfit',
+  'romper',
+  'wrap dress',
+  'bodycon dress',
+  'shirt dress',
+  'puff sleeve top',
+  'square neck top',
+  'halter top',
+  'off shoulder top',
+  'cold shoulder top',
 ];
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -48,20 +88,7 @@ const OUTPUT_FILE = path.join(DATA_DIR, 'trends.json');
 const TREND_SCORE_THRESHOLD = Number(process.env.TREND_SCORE_THRESHOLD) ?? 0;
 const IMAGES_PER_TREND = Math.min(5, Math.max(3, Number(process.env.IMAGES_PER_TREND) || 4));
 const DAYS_AGO = 90;
-
-// Google Trends by location (geo code: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
-const LOCATIONS = [
-  { code: 'US', name: 'United States' },
-  { code: 'GB', name: 'United Kingdom' },
-  { code: 'IN', name: 'India' },
-  { code: 'AU', name: 'Australia' },
-  { code: 'CA', name: 'Canada' },
-  { code: 'DE', name: 'Germany' },
-  { code: 'FR', name: 'France' },
-  { code: 'BR', name: 'Brazil' },
-  { code: 'JP', name: 'Japan' },
-  { code: 'NG', name: 'Nigeria' },
-];
+const GEO = 'US';
 
 const SEASON_KEYWORDS = {
   summer: ['summer', 'linen', 'sundress', 'beach', 'resort'],
@@ -89,15 +116,15 @@ function getWhyTrending(keyword, score) {
 }
 
 /**
- * Fetch interest-over-time from Google Trends for a given location; return { averageInterest, trendSlope, score }.
+ * Fetch interest-over-time from Google Trends; return { averageInterest, trendSlope, score }.
  */
-function fetchTrendMetrics(keyword, geo = 'US') {
+function fetchTrendMetrics(keyword) {
   const endTime = new Date();
   const startTime = new Date();
   startTime.setDate(startTime.getDate() - DAYS_AGO);
 
   return googleTrends
-    .interestOverTime({ keyword, startTime, endTime, geo })
+    .interestOverTime({ keyword, startTime, endTime, geo: GEO })
     .then((res) => {
       const data = JSON.parse(res);
       const timeline = data?.default?.timelineData || data?.default?.timeline_data || [];
@@ -165,26 +192,18 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
 async function main() {
   const accessKey = process.env.UNSPLASH_ACCESS_KEY || '';
 
-  const allMetrics = [];
-  for (const loc of LOCATIONS) {
-    console.log('Fetching Google Trends for', loc.name, '...');
-    const list = await Promise.all(
-      KEYWORDS.map((kw) => fetchTrendMetrics(kw, loc.code))
-    );
-    list.forEach((m) => allMetrics.push({ ...m, location: loc.name, locationCode: loc.code }));
-    await new Promise((r) => setTimeout(r, 500));
-  }
+  console.log('Fetching Google Trends for', KEYWORDS.length, 'fashion keywords...');
+  const metricsList = await Promise.all(KEYWORDS.map((kw) => fetchTrendMetrics(kw)));
 
-  const filtered = allMetrics
+  const filtered = metricsList
     .filter((m) => m.score >= TREND_SCORE_THRESHOLD)
     .sort((a, b) => b.score - a.score);
 
   console.log('Trends above threshold:', filtered.length);
 
   const imagesByKeyword = {};
-  const uniqueKeywords = [...new Set(filtered.map((m) => m.keyword))];
-  for (const kw of uniqueKeywords) {
-    imagesByKeyword[kw] = await fetchImagesForKeyword(kw, IMAGES_PER_TREND, accessKey);
+  for (const m of filtered) {
+    imagesByKeyword[m.keyword] = await fetchImagesForKeyword(m.keyword, IMAGES_PER_TREND, accessKey);
     await new Promise((r) => setTimeout(r, 200));
   }
 
@@ -193,64 +212,20 @@ async function main() {
     score: m.score,
     averageInterest: m.averageInterest,
     trendSlope: m.trendSlope,
-    location: m.location,
-    locationCode: m.locationCode,
     images: imagesByKeyword[m.keyword] || [],
     whyTrending: getWhyTrending(m.keyword, m.score),
     season: getSeason(m.keyword),
   }));
 
-  const generatedAt = new Date().toISOString();
-  const basePayload = {
-    generatedAt,
+  const payload = {
+    generatedAt: new Date().toISOString(),
     updateFrequency: '6 hours',
+    trends,
   };
 
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-
-  // 1) Full file: all trends, all locations (data increased: 30 keywords × 10 countries)
-  const fullPayload = {
-    ...basePayload,
-    locations: LOCATIONS.map((l) => ({ code: l.code, name: l.name })),
-    trends,
-  };
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(fullPayload, null, 2), 'utf8');
-  console.log('Wrote', OUTPUT_FILE, '(trends count:', trends.length, ')');
-
-  // 2) Per-country files: query by country via URL (e.g. trends-US.json)
-  const baseUrl = 'https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data';
-  const byCountry = [];
-  for (const loc of LOCATIONS) {
-    const countryTrends = trends.filter((t) => t.locationCode === loc.code);
-    const countryPayload = {
-      ...basePayload,
-      location: loc.name,
-      locationCode: loc.code,
-      trends: countryTrends,
-    };
-    const filename = `trends-${loc.code}.json`;
-    fs.writeFileSync(
-      path.join(DATA_DIR, filename),
-      JSON.stringify(countryPayload, null, 2),
-      'utf8'
-    );
-    byCountry.push({ code: loc.code, name: loc.name, file: filename, url: `${baseUrl}/${filename}` });
-    console.log('Wrote', filename);
-  }
-
-  // 3) Index: list of countries and URLs for query-by-country
-  const indexPayload = {
-    generatedAt,
-    updateFrequency: '6 hours',
-    allTrendsUrl: `${baseUrl}/trends.json`,
-    byCountry,
-  };
-  fs.writeFileSync(
-    path.join(DATA_DIR, 'index.json'),
-    JSON.stringify(indexPayload, null, 2),
-    'utf8'
-  );
-  console.log('Wrote index.json');
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(payload, null, 2), 'utf8');
+  console.log('Wrote', OUTPUT_FILE, '—', trends.length, 'trends');
 }
 
 main().catch((err) => {
