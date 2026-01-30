@@ -1,12 +1,13 @@
-# Update fashion trends every 6 hours and serve via GitHub Pages
+# Update fashion trends (no schedule — runs on push or manual)
 name: Update trends
 
 on:
-  schedule:
-    # Every 6 hours at minute 0
-    - cron: '0 */6 * * *'
+  push:
+    branches: [master, main]
+    paths:
+      - 'fashion-trends/**'
+      - '.github/workflows/update-trends.yml'
   workflow_dispatch:
-    # Allow manual run from Actions tab
 
 jobs:
   update:

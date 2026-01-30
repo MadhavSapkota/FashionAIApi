@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-01-30T00:00:00.000Z",
+  "updateFrequency": "6 hours",
+  "allTrendsUrl": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends.json",
+  "byCountry": [
+    { "code": "US", "name": "United States", "file": "trends-US.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-US.json" },
+    { "code": "GB", "name": "United Kingdom", "file": "trends-GB.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-GB.json" },
+    { "code": "IN", "name": "India", "file": "trends-IN.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-IN.json" },
+    { "code": "AU", "name": "Australia", "file": "trends-AU.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-AU.json" },
+    { "code": "CA", "name": "Canada", "file": "trends-CA.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-CA.json" },
+    { "code": "DE", "name": "Germany", "file": "trends-DE.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-DE.json" },
+    { "code": "FR", "name": "France", "file": "trends-FR.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-FR.json" },
+    { "code": "BR", "name": "Brazil", "file": "trends-BR.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-BR.json" },
+    { "code": "JP", "name": "Japan", "file": "trends-JP.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-JP.json" },
+    { "code": "NG", "name": "Nigeria", "file": "trends-NG.json", "url": "https://madhavsapkota.github.io/FashionAIApi/fashion-trends/data/trends-NG.json" }
+  ]
+}

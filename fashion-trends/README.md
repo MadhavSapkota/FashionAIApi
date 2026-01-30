@@ -51,25 +51,18 @@ If you want a **standalone repo** that only contains this project:
 
 ## JSON format
 
-Trends are fetched **per location** (Google Trends geo). Each trend has `location` and `locationCode`; the same keyword can appear for multiple regions with different scores.
+One file with **many fashion trends** (no country split). Data from Google Trends (US) + Unsplash images.
 
 ```json
 {
   "generatedAt": "2025-01-27T12:00:00.000Z",
   "updateFrequency": "6 hours",
-  "locations": [
-    { "code": "US", "name": "United States" },
-    { "code": "GB", "name": "United Kingdom" },
-    { "code": "IN", "name": "India" }
-  ],
   "trends": [
     {
       "name": "linen summer dress",
       "score": 72,
       "averageInterest": 65.2,
       "trendSlope": 1.1,
-      "location": "United States",
-      "locationCode": "US",
       "images": ["https://..."],
       "whyTrending": "Strong search interest for \"linen summer dress\" on Google Trends this period.",
       "season": "summer"
@@ -77,8 +70,6 @@ Trends are fetched **per location** (Google Trends geo). Each trend has `locatio
   ]
 }
 ```
-
-**Filter by location in your app:** e.g. `trends.filter(t => t.locationCode === 'US')` or `t.location === 'India'`.
 
 ---
 
