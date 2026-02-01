@@ -173,14 +173,14 @@ function fetchTrendMetrics(keyword) {
 }
 
 /**
- * Fetch image URLs from Unsplash Search API.
+ * Fetch image URLs from Unsplash Search API for a given search query.
  */
-async function fetchImagesForKeyword(keyword, count, accessKey) {
+async function fetchImagesForQuery(query, count, accessKey) {
   if (!accessKey || accessKey === 'your_unsplash_access_key_here') {
     return [];
   }
-  const query = encodeURIComponent(keyword);
-  const url = `https://api.unsplash.com/search/photos?query=${query}&per_page=${Math.min(count, 10)}&client_id=${accessKey}`;
+  const encoded = encodeURIComponent(query);
+  const url = `https://api.unsplash.com/search/photos?query=${encoded}&per_page=${Math.min(count, 10)}&client_id=${accessKey}`;
   const res = await fetch(url, { headers: { Accept: 'application/json' } });
   if (!res.ok) return [];
   const data = await res.json();
@@ -189,6 +189,37 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
     .slice(0, count)
     .map((p) => p.urls?.regular || p.urls?.small || p.urls?.thumb)
     .filter(Boolean);
+}
+
+/** Fallback search terms when primary keyword returns no images. */
+function getFallbackSearchTerms(keyword) {
+  const lower = keyword.toLowerCase();
+  const fallbacks = {
+    'oversized fit': ['oversized fashion', 'oversized clothing', 'street style outfit'],
+    'cargo skirt': ['cargo skirt outfit', 'skirt outfit', 'utility skirt'],
+    'color block fashion': ['color block outfit', 'colorful fashion', 'bold color outfit'],
+    'print mixing': ['print mix outfit', 'pattern mixing fashion', 'mixed print dress'],
+    'neutral tone outfit': ['neutral outfit', 'neutral fashion', 'beige outfit'],
+    'coastal grandmother style': ['coastal style', 'linen outfit', 'relaxed fashion'],
+    'trending outfits 2025': ['trending fashion', 'outfits 2025', 'fashion trends'],
+    'ballet core fashion': ['ballet core', 'ballet aesthetic', 'ballet style outfit'],
+  };
+  return fallbacks[lower] || [keyword.split(' ').slice(0, 2).join(' '), keyword.split(' ')[0], 'fashion outfit'];
+}
+
+/**
+ * Fetch images for keyword, with fallbacks if primary search returns nothing.
+ */
+async function fetchImagesForKeyword(keyword, count, accessKey) {
+  let urls = await fetchImagesForQuery(keyword, count, accessKey);
+  if (urls.length > 0) return urls;
+  const fallbacks = getFallbackSearchTerms(keyword);
+  for (const term of fallbacks) {
+    urls = await fetchImagesForQuery(term, count, accessKey);
+    if (urls.length > 0) return urls;
+    await new Promise((r) => setTimeout(r, 150));
+  }
+  return urls;
 }
 
 async function main() {
