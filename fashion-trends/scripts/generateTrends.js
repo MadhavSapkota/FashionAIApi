@@ -66,13 +66,16 @@ const KEYWORDS = [
   'romper',
   'puff sleeve top',
   
-  // Weddings
-  'wedding guest dress',
-  'formal dress women',
-  'vintage dress',
-  'pleated skirt',
-  'flare pants',
-  'elegant outfit',
+  // Marriage and Bride
+  'bridal gown',
+  'wedding dress bride',
+  'bride outfit',
+  'bridal dress',
+  'bridal wear',
+  'bride lehenga',
+  'bridal saree',
+  'marriage dress',
+  'bride jewelry',
   
   // Festivals and Events
   'festival outfit',
@@ -210,13 +213,16 @@ const OCCASION_MAP = {
   'romper': 'birthday party',
   'puff sleeve top': 'birthday party',
   
-  // Weddings
-  'wedding guest dress': 'weddings',
-  'formal dress women': 'weddings',
-  'vintage dress': 'weddings',
-  'pleated skirt': 'weddings',
-  'flare pants': 'weddings',
-  'elegant outfit': 'weddings',
+  // Marriage and Bride
+  'bridal gown': 'marriage and bride',
+  'wedding dress bride': 'marriage and bride',
+  'bride outfit': 'marriage and bride',
+  'bridal dress': 'marriage and bride',
+  'bridal wear': 'marriage and bride',
+  'bride lehenga': 'marriage and bride',
+  'bridal saree': 'marriage and bride',
+  'marriage dress': 'marriage and bride',
+  'bride jewelry': 'marriage and bride',
   
   // Festivals and Events
   'festival outfit': 'festivals and events',
@@ -283,7 +289,8 @@ function getOccasion(keyword) {
   if (lower.includes('blazer') || lower.includes('trousers') || lower.includes('office')) return 'work and office';
   if (lower.includes('jogger') || lower.includes('athleisure') || lower.includes('sport')) return 'gym and athleisure';
   if (lower.includes('party') || lower.includes('sequin') || lower.includes('glitter')) return 'birthday party';
-  if (lower.includes('wedding') || lower.includes('formal') || lower.includes('elegant')) return 'formal events';
+  if (lower.includes('bridal') || lower.includes('bride') || lower.includes('marriage') || lower.includes('lehenga') || lower.includes('saree')) return 'marriage and bride';
+  if (lower.includes('formal') || lower.includes('elegant')) return 'formal events';
   if (lower.includes('beach') || lower.includes('vacation') || lower.includes('resort')) return 'vacation';
   if (lower.includes('brunch') || lower.includes('cafe') || lower.includes('sunday')) return 'brunch and cafes';
   if (lower.includes('festival') || lower.includes('concert') || lower.includes('boho')) return 'festivals and events';
@@ -445,6 +452,15 @@ function getFallbackSearchTerms(keyword) {
     'athleisure outfit': ['athleisure fashion outfit', 'sporty outfit fashion', 'women fashion athleisure'],
     'neutral tone outfit': ['neutral fashion outfit', 'beige fashion dress', 'women fashion outfit'],
     'layered necklace outfit': ['layered necklace fashion', 'jewelry fashion outfit', 'women fashion accessories'],
+    'bridal gown': ['wedding dress bride', 'bride dress', 'women wedding dress'],
+    'wedding dress bride': ['bridal dress', 'wedding dress', 'bride outfit'],
+    'bride outfit': ['wedding dress', 'bridal wear', 'bride dress'],
+    'bridal dress': ['wedding dress', 'bridal gown', 'bride dress'],
+    'bridal wear': ['wedding dress', 'bridal gown', 'bride outfit'],
+    'bride lehenga': ['lehenga bride', 'indian bride', 'wedding dress'],
+    'bridal saree': ['bride saree', 'wedding saree', 'indian wedding dress'],
+    'marriage dress': ['wedding dress', 'bridal dress', 'bride outfit'],
+    'bride jewelry': ['bridal jewelry', 'wedding jewelry', 'bride accessories'],
   };
   const w1 = keyword.split(' ')[0];
   const w2 = keyword.split(' ').slice(0, 2).join(' ');
