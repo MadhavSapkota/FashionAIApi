@@ -172,8 +172,13 @@ function fetchTrendMetrics(keyword) {
     });
 }
 
-/** Guaranteed queries that return many fashion images on Unsplash. */
-const GUARANTEED_IMAGE_QUERIES = ['women fashion', 'fashion outfit', 'street style outfit', 'casual outfit'];
+/** Guaranteed queries — fashion-only to avoid random images. */
+const GUARANTEED_IMAGE_QUERIES = [
+  'women fashion outfit',
+  'street style fashion',
+  'fashion clothing style',
+  'womenswear outfit',
+];
 
 /**
  * Fetch image URLs from Unsplash Search API for a given search query.
@@ -201,37 +206,43 @@ async function fetchImagesForQuery(query, count, accessKey, retried = false) {
     .filter(Boolean);
 }
 
-/** Fallback search terms when primary keyword returns no images. */
+/** Fallback search terms — all fashion/outfit/dress/clothing to avoid random images. */
 function getFallbackSearchTerms(keyword) {
   const lower = keyword.toLowerCase();
   const fallbacks = {
-    'oversized fit': ['oversized fashion', 'oversized clothing', 'street style outfit'],
-    'cargo skirt': ['cargo skirt outfit', 'skirt outfit', 'utility skirt'],
-    'color block fashion': ['colorful fashion', 'bold color outfit', 'women fashion'],
-    'print mixing': ['pattern dress', 'mixed print', 'floral dress'],
-    'neutral tone outfit': ['neutral outfit', 'beige outfit', 'minimal outfit'],
-    'coastal grandmother style': ['linen outfit', 'relaxed fashion', 'summer dress'],
-    'trending outfits 2025': ['fashion trends', 'women fashion', 'outfit'],
-    'ballet core fashion': ['ballet aesthetic', 'pink outfit', 'feminine fashion'],
-    'street style fashion': ['street style', 'urban outfit', 'women fashion'],
-    'linen summer dress': ['linen dress', 'summer dress', 'casual dress'],
-    'trench coat outfit': ['trench coat', 'coat outfit', 'women fashion'],
-    'tailored trousers': ['tailored pants', 'wide leg pants', 'women fashion'],
-    'coquette outfit': ['feminine outfit', 'lace dress', 'women fashion'],
-    'maxi skirt outfit': ['maxi skirt', 'long skirt', 'women fashion'],
-    'joggers outfit': ['joggers', 'athleisure', 'casual outfit'],
-    'minimalist fashion': ['minimal outfit', 'simple fashion', 'women fashion'],
-    'cottagecore dress': ['floral dress', 'cottage dress', 'women fashion'],
-    'monochrome outfit': ['monochrome look', 'black white outfit', 'women fashion'],
-    'cold shoulder top': ['cold shoulder', 'off shoulder top', 'women fashion'],
-    'graphic tee outfit': ['graphic tee', 'printed t-shirt', 'casual outfit'],
-    'minimalist outfit': ['minimal outfit', 'simple outfit', 'women fashion'],
-    'quiet luxury fashion': ['minimal fashion', 'elegant outfit', 'women fashion'],
-    'athleisure outfit': ['athleisure', 'sporty outfit', 'women fashion'],
-    'neutral tone outfit': ['neutral outfit', 'beige fashion', 'women fashion'],
-    'layered necklace outfit': ['layered necklace', 'jewelry outfit', 'women fashion'],
+    'oversized fit': ['oversized fashion outfit', 'oversized clothing', 'street style fashion'],
+    'cargo skirt': ['cargo skirt outfit', 'skirt outfit fashion', 'utility skirt outfit'],
+    'color block fashion': ['colorful fashion outfit', 'bold color dress', 'women fashion outfit'],
+    'print mixing': ['pattern dress fashion', 'mixed print dress', 'floral dress outfit'],
+    'neutral tone outfit': ['neutral fashion outfit', 'beige outfit dress', 'minimal fashion outfit'],
+    'coastal grandmother style': ['linen outfit fashion', 'relaxed fashion style', 'summer dress outfit'],
+    'trending outfits 2025': ['fashion trends outfit', 'women fashion 2025', 'fashion outfit style'],
+    'ballet core fashion': ['ballet core outfit', 'pink fashion dress', 'feminine fashion outfit'],
+    'street style fashion': ['street style outfit', 'urban fashion outfit', 'women fashion street'],
+    'linen summer dress': ['linen dress outfit', 'summer dress fashion', 'casual dress outfit'],
+    'trench coat outfit': ['trench coat fashion', 'coat outfit women', 'women fashion coat'],
+    'tailored trousers': ['tailored pants outfit', 'wide leg pants fashion', 'women fashion trousers'],
+    'coquette outfit': ['feminine fashion outfit', 'lace dress outfit', 'women fashion dress'],
+    'maxi skirt outfit': ['maxi skirt fashion', 'long skirt dress', 'women fashion skirt'],
+    'joggers outfit': ['joggers outfit fashion', 'athleisure outfit', 'casual fashion outfit'],
+    'minimalist fashion': ['minimal fashion outfit', 'simple fashion dress', 'women fashion minimal'],
+    'cottagecore dress': ['floral dress outfit', 'cottagecore fashion', 'women fashion dress'],
+    'monochrome outfit': ['monochrome fashion outfit', 'black white dress', 'women fashion monochrome'],
+    'cold shoulder top': ['cold shoulder dress', 'off shoulder top fashion', 'women fashion top'],
+    'graphic tee outfit': ['graphic tee fashion', 'printed t-shirt outfit', 'casual fashion outfit'],
+    'minimalist outfit': ['minimal fashion outfit', 'simple outfit dress', 'women fashion outfit'],
+    'quiet luxury fashion': ['minimal fashion elegant', 'elegant outfit fashion', 'women fashion luxury'],
+    'athleisure outfit': ['athleisure fashion outfit', 'sporty outfit fashion', 'women fashion athleisure'],
+    'neutral tone outfit': ['neutral fashion outfit', 'beige fashion dress', 'women fashion outfit'],
+    'layered necklace outfit': ['layered necklace fashion', 'jewelry fashion outfit', 'women fashion accessories'],
   };
-  return fallbacks[lower] || [keyword.split(' ').slice(0, 2).join(' '), keyword.split(' ')[0], 'women fashion'];
+  const w1 = keyword.split(' ')[0];
+  const w2 = keyword.split(' ').slice(0, 2).join(' ');
+  return fallbacks[lower] || [
+    keyword.includes('outfit') || keyword.includes('dress') || keyword.includes('fashion') ? keyword : `${w2} fashion`,
+    `${w1} fashion outfit`,
+    'women fashion outfit',
+  ];
 }
 
 /**
@@ -246,7 +257,7 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
     if (urls.length > 0) return urls;
     await new Promise((r) => setTimeout(r, 200));
   }
-  urls = await fetchImagesForQuery('women fashion', count, accessKey);
+  urls = await fetchImagesForQuery('women fashion outfit', count, accessKey);
   return urls;
 }
 
