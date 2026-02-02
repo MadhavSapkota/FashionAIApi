@@ -172,17 +172,27 @@ function fetchTrendMetrics(keyword) {
     });
 }
 
+/** Guaranteed queries that return many fashion images on Unsplash. */
+const GUARANTEED_IMAGE_QUERIES = ['women fashion', 'fashion outfit', 'street style outfit', 'casual outfit'];
+
 /**
  * Fetch image URLs from Unsplash Search API for a given search query.
+ * Retries once on 429/503 to handle rate limits.
  */
-async function fetchImagesForQuery(query, count, accessKey) {
+async function fetchImagesForQuery(query, count, accessKey, retried = false) {
   if (!accessKey || accessKey === 'your_unsplash_access_key_here') {
     return [];
   }
   const encoded = encodeURIComponent(query);
   const url = `https://api.unsplash.com/search/photos?query=${encoded}&per_page=${Math.min(count, 10)}&client_id=${accessKey}`;
   const res = await fetch(url, { headers: { Accept: 'application/json' } });
-  if (!res.ok) return [];
+  if (!res.ok) {
+    if ((res.status === 429 || res.status === 503) && !retried) {
+      await new Promise((r) => setTimeout(r, 2000));
+      return fetchImagesForQuery(query, count, accessKey, true);
+    }
+    return [];
+  }
   const data = await res.json();
   const results = data.results || [];
   return results
@@ -197,14 +207,31 @@ function getFallbackSearchTerms(keyword) {
   const fallbacks = {
     'oversized fit': ['oversized fashion', 'oversized clothing', 'street style outfit'],
     'cargo skirt': ['cargo skirt outfit', 'skirt outfit', 'utility skirt'],
-    'color block fashion': ['color block outfit', 'colorful fashion', 'bold color outfit'],
-    'print mixing': ['print mix outfit', 'pattern mixing fashion', 'mixed print dress'],
-    'neutral tone outfit': ['neutral outfit', 'neutral fashion', 'beige outfit'],
-    'coastal grandmother style': ['coastal style', 'linen outfit', 'relaxed fashion'],
-    'trending outfits 2025': ['trending fashion', 'outfits 2025', 'fashion trends'],
-    'ballet core fashion': ['ballet core', 'ballet aesthetic', 'ballet style outfit'],
+    'color block fashion': ['colorful fashion', 'bold color outfit', 'women fashion'],
+    'print mixing': ['pattern dress', 'mixed print', 'floral dress'],
+    'neutral tone outfit': ['neutral outfit', 'beige outfit', 'minimal outfit'],
+    'coastal grandmother style': ['linen outfit', 'relaxed fashion', 'summer dress'],
+    'trending outfits 2025': ['fashion trends', 'women fashion', 'outfit'],
+    'ballet core fashion': ['ballet aesthetic', 'pink outfit', 'feminine fashion'],
+    'street style fashion': ['street style', 'urban outfit', 'women fashion'],
+    'linen summer dress': ['linen dress', 'summer dress', 'casual dress'],
+    'trench coat outfit': ['trench coat', 'coat outfit', 'women fashion'],
+    'tailored trousers': ['tailored pants', 'wide leg pants', 'women fashion'],
+    'coquette outfit': ['feminine outfit', 'lace dress', 'women fashion'],
+    'maxi skirt outfit': ['maxi skirt', 'long skirt', 'women fashion'],
+    'joggers outfit': ['joggers', 'athleisure', 'casual outfit'],
+    'minimalist fashion': ['minimal outfit', 'simple fashion', 'women fashion'],
+    'cottagecore dress': ['floral dress', 'cottage dress', 'women fashion'],
+    'monochrome outfit': ['monochrome look', 'black white outfit', 'women fashion'],
+    'cold shoulder top': ['cold shoulder', 'off shoulder top', 'women fashion'],
+    'graphic tee outfit': ['graphic tee', 'printed t-shirt', 'casual outfit'],
+    'minimalist outfit': ['minimal outfit', 'simple outfit', 'women fashion'],
+    'quiet luxury fashion': ['minimal fashion', 'elegant outfit', 'women fashion'],
+    'athleisure outfit': ['athleisure', 'sporty outfit', 'women fashion'],
+    'neutral tone outfit': ['neutral outfit', 'beige fashion', 'women fashion'],
+    'layered necklace outfit': ['layered necklace', 'jewelry outfit', 'women fashion'],
   };
-  return fallbacks[lower] || [keyword.split(' ').slice(0, 2).join(' '), keyword.split(' ')[0], 'fashion outfit'];
+  return fallbacks[lower] || [keyword.split(' ').slice(0, 2).join(' '), keyword.split(' ')[0], 'women fashion'];
 }
 
 /**
@@ -217,8 +244,9 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
   for (const term of fallbacks) {
     urls = await fetchImagesForQuery(term, count, accessKey);
     if (urls.length > 0) return urls;
-    await new Promise((r) => setTimeout(r, 150));
+    await new Promise((r) => setTimeout(r, 200));
   }
+  urls = await fetchImagesForQuery('women fashion', count, accessKey);
   return urls;
 }
 
@@ -244,10 +272,32 @@ async function main() {
 
   console.log('Trends to output:', toOutput.length, '(with score > 0:', toOutput.filter((m) => m.score > 0).length, ')');
 
+  // Build guaranteed image pool first — real Unsplash URLs for trends with no results
+  let imagePool = [];
+  if (accessKey) {
+    for (const q of GUARANTEED_IMAGE_QUERIES) {
+      const urls = await fetchImagesForQuery(q, 15, accessKey);
+      imagePool.push(...urls);
+      await new Promise((r) => setTimeout(r, 300));
+    }
+    imagePool = [...new Set(imagePool)];
+    console.log('Image pool size:', imagePool.length);
+  }
+
+  let poolOffset = 0;
   const imagesByKeyword = {};
   for (const m of toOutput) {
-    imagesByKeyword[m.keyword] = await fetchImagesForKeyword(m.keyword, IMAGES_PER_TREND, accessKey);
-    await new Promise((r) => setTimeout(r, 180));
+    let urls = await fetchImagesForKeyword(m.keyword, IMAGES_PER_TREND, accessKey);
+    if (urls.length === 0 && imagePool.length > 0) {
+      const start = poolOffset % imagePool.length;
+      urls = [];
+      for (let i = 0; i < IMAGES_PER_TREND; i++) {
+        urls.push(imagePool[(start + i) % imagePool.length]);
+      }
+      poolOffset += IMAGES_PER_TREND;
+    }
+    imagesByKeyword[m.keyword] = urls;
+    await new Promise((r) => setTimeout(r, 250));
   }
 
   const trends = toOutput.map((m) => ({
@@ -255,7 +305,7 @@ async function main() {
     score: m.score,
     averageInterest: m.averageInterest,
     trendSlope: m.trendSlope,
-    images: imagesByKeyword[m.keyword] || [],
+    images: (imagesByKeyword[m.keyword]?.length ? imagesByKeyword[m.keyword] : imagePool.slice(0, IMAGES_PER_TREND)) || [],
     whyTrending: getWhyTrending(m.keyword, m.score),
     season: getSeason(m.keyword),
   }));
