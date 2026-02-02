@@ -4,9 +4,6 @@ name: Update trends
 on:
   push:
     branches: [master, main]
-    paths:
-      - 'fashion-trends/**'
-      - '.github/workflows/update-trends.yml'
   workflow_dispatch:
 
 jobs:
