@@ -11,76 +11,127 @@ const path = require('path');
 const googleTrends = require('google-trends-api');
 
 const KEYWORDS = [
-  'coquette outfit',
-  'quiet luxury fashion',
-  'cargo pants women',
-  'linen summer dress',
-  'minimalist outfit',
-  'street style fashion',
-  'oversized blazer',
-  'wide leg jeans',
-  'cottagecore dress',
-  'y2k fashion',
-  'athleisure outfit',
-  'neutral tone outfit',
-  'maxi skirt outfit',
+  // Work and Office
+  'office outfit women',
+  'work blazer outfit',
+  'business casual women',
+  'pencil skirt outfit',
   'blazer dress',
-  'layered necklace outfit',
-  'sustainable fashion',
-  'vintage dress',
-  'mom jeans',
-  'cropped jacket',
-  'slip dress',
-  'tennis skirt',
-  'ballet core fashion',
-  'coastal grandmother style',
-  'capsule wardrobe',
-  'statement earrings',
-  'leather jacket',
-  'denim skirt',
-  'knit sweater',
-  'wide leg pants',
-  'midi dress',
-  'trending outfits 2025',
-  'minimalist fashion',
-  'oversized fit',
   'tailored trousers',
-  'bomber jacket',
+  'oversized blazer',
+  'shirt dress',
+  'midi dress',
   'trench coat outfit',
-  'satin dress',
-  'ribbed knit',
-  'pleated skirt',
-  'platform shoes',
-  'mary jane shoes',
-  'bucket hat',
-  'chain bag',
-  'crossbody bag',
-  'gold jewelry',
-  'pearl necklace',
-  'sheer top',
-  'corset top',
-  'cargo skirt',
-  'flare pants',
-  'straight leg jeans',
-  'cropped cardigan',
-  'vest outfit',
-  'monochrome outfit',
-  'color block fashion',
-  'print mixing',
-  'animal print',
-  'striped shirt',
+  'minimalist outfit',
+  'quiet luxury fashion',
+  'capsule wardrobe',
+  
+  // Casual
+  'casual outfit women',
+  'weekend outfit',
+  'mom jeans',
+  'wide leg jeans',
   'graphic tee outfit',
   'hoodie dress',
-  'joggers outfit',
-  'romper',
-  'wrap dress',
+  'cargo pants women',
+  'striped shirt',
+  'denim skirt',
+  'bucket hat',
+  'crossbody bag',
+  'oversized fit',
+  'street style fashion',
+  'y2k fashion',
+  
+  // Date Night
+  'date night outfit',
+  'slip dress',
+  'satin dress',
   'bodycon dress',
-  'shirt dress',
-  'puff sleeve top',
-  'square neck top',
+  'corset top',
+  'sheer top',
   'halter top',
   'off shoulder top',
+  'wrap dress',
+  'gold jewelry',
+  'chain bag',
+  'statement earrings',
+  
+  // Birthday Party
+  'birthday outfit women',
+  'party dress',
+  'sequin dress',
+  'animal print',
+  'platform shoes',
+  'pearl necklace',
+  'romper',
+  'puff sleeve top',
+  
+  // Weddings
+  'wedding guest dress',
+  'formal dress women',
+  'vintage dress',
+  'pleated skirt',
+  'flare pants',
+  'elegant outfit',
+  
+  // Festivals and Events
+  'festival outfit',
+  'concert outfit',
+  'coquette outfit',
+  'cottagecore dress',
+  'ballet core fashion',
+  'color block fashion',
+  'print mixing',
+  'maxi skirt outfit',
+  'cropped jacket',
+  'boho dress',
+  
+  // Brunch and Cafes
+  'brunch outfit women',
+  'linen summer dress',
+  'square neck top',
+  'tennis skirt',
+  'cropped cardigan',
+  'layered necklace outfit',
+  'coastal grandmother style',
+  'sundress outfit',
+  
+  // Vacation
+  'vacation outfit women',
+  'resort wear women',
+  'beach outfit',
+  'wide leg pants',
+  'maxi dress',
+  'summer dress outfit',
+  
+  // Gym and Athleisure
+  'athleisure outfit',
+  'joggers outfit',
+  'gym outfit women',
+  'leggings outfit',
+  'sports bra outfit',
+  'workout outfit',
+  
+  // Formal Events
+  'formal outfit women',
+  'gala dress',
+  'cocktail dress',
+  'vest outfit',
+  'monochrome outfit',
+  'leather jacket',
+  'mary jane shoes',
+  
+  // Extra trending items
+  'sustainable fashion',
+  'neutral tone outfit',
+  'straight leg jeans',
+  'cargo skirt',
+  'ribbed knit',
+  'knit sweater',
+  'bomber jacket',
   'cold shoulder top',
+  'trending outfits 2025',
+  'minimalist fashion',
 ];
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
@@ -98,6 +149,148 @@ const SEASON_KEYWORDS = {
   fall: ['fall', 'autumn', 'sweater', 'jacket', 'plaid'],
   spring: ['spring', 'floral', 'pastel', 'light'],
 };
+
+/** Occasion mapping for outfit categories */
+const OCCASION_MAP = {
+  // Work and Office
+  'office outfit women': 'work and office',
+  'work blazer outfit': 'work and office',
+  'business casual women': 'work and office',
+  'pencil skirt outfit': 'work and office',
+  'blazer dress': 'work and office',
+  'tailored trousers': 'work and office',
+  'oversized blazer': 'work and office',
+  'shirt dress': 'work and office',
+  'midi dress': 'work and office',
+  'trench coat outfit': 'work and office',
+  'minimalist outfit': 'work and office',
+  'quiet luxury fashion': 'work and office',
+  'capsule wardrobe': 'work and office',
+  
+  // Casual
+  'casual outfit women': 'casual',
+  'weekend outfit': 'casual',
+  'mom jeans': 'casual',
+  'wide leg jeans': 'casual',
+  'graphic tee outfit': 'casual',
+  'hoodie dress': 'casual',
+  'cargo pants women': 'casual',
+  'striped shirt': 'casual',
+  'denim skirt': 'casual',
+  'bucket hat': 'casual',
+  'crossbody bag': 'casual',
+  'oversized fit': 'casual',
+  'street style fashion': 'casual',
+  'y2k fashion': 'casual',
+  'straight leg jeans': 'casual',
+  'cargo skirt': 'casual',
+  'cold shoulder top': 'casual',
+  
+  // Date Night
+  'date night outfit': 'date night',
+  'slip dress': 'date night',
+  'satin dress': 'date night',
+  'bodycon dress': 'date night',
+  'corset top': 'date night',
+  'sheer top': 'date night',
+  'halter top': 'date night',
+  'off shoulder top': 'date night',
+  'wrap dress': 'date night',
+  'gold jewelry': 'date night',
+  'chain bag': 'date night',
+  'statement earrings': 'date night',
+  
+  // Birthday Party
+  'birthday outfit women': 'birthday party',
+  'party dress': 'birthday party',
+  'sequin dress': 'birthday party',
+  'animal print': 'birthday party',
+  'platform shoes': 'birthday party',
+  'pearl necklace': 'birthday party',
+  'romper': 'birthday party',
+  'puff sleeve top': 'birthday party',
+  
+  // Weddings
+  'wedding guest dress': 'weddings',
+  'formal dress women': 'weddings',
+  'vintage dress': 'weddings',
+  'pleated skirt': 'weddings',
+  'flare pants': 'weddings',
+  'elegant outfit': 'weddings',
+  
+  // Festivals and Events
+  'festival outfit': 'festivals and events',
+  'concert outfit': 'festivals and events',
+  'coquette outfit': 'festivals and events',
+  'cottagecore dress': 'festivals and events',
+  'ballet core fashion': 'festivals and events',
+  'color block fashion': 'festivals and events',
+  'print mixing': 'festivals and events',
+  'maxi skirt outfit': 'festivals and events',
+  'cropped jacket': 'festivals and events',
+  'boho dress': 'festivals and events',
+  
+  // Brunch and Cafes
+  'brunch outfit women': 'brunch and cafes',
+  'linen summer dress': 'brunch and cafes',
+  'square neck top': 'brunch and cafes',
+  'tennis skirt': 'brunch and cafes',
+  'cropped cardigan': 'brunch and cafes',
+  'layered necklace outfit': 'brunch and cafes',
+  'coastal grandmother style': 'brunch and cafes',
+  'sundress outfit': 'brunch and cafes',
+  
+  // Vacation
+  'vacation outfit women': 'vacation',
+  'resort wear women': 'vacation',
+  'beach outfit': 'vacation',
+  'wide leg pants': 'vacation',
+  'maxi dress': 'vacation',
+  'summer dress outfit': 'vacation',
+  
+  // Gym and Athleisure
+  'athleisure outfit': 'gym and athleisure',
+  'joggers outfit': 'gym and athleisure',
+  'gym outfit women': 'gym and athleisure',
+  'leggings outfit': 'gym and athleisure',
+  'sports bra outfit': 'gym and athleisure',
+  'workout outfit': 'gym and athleisure',
+  
+  // Formal Events
+  'formal outfit women': 'formal events',
+  'gala dress': 'formal events',
+  'cocktail dress': 'formal events',
+  'vest outfit': 'formal events',
+  'monochrome outfit': 'formal events',
+  'leather jacket': 'formal events',
+  'mary jane shoes': 'formal events',
+  
+  // Extra items with sensible defaults
+  'sustainable fashion': 'casual',
+  'neutral tone outfit': 'work and office',
+  'ribbed knit': 'casual',
+  'knit sweater': 'casual',
+  'bomber jacket': 'casual',
+  'trending outfits 2025': 'casual',
+  'minimalist fashion': 'work and office',
+};
+
+function getOccasion(keyword) {
+  const lower = keyword.toLowerCase();
+  if (OCCASION_MAP[lower]) return OCCASION_MAP[lower];
+  
+  // Fallback detection based on keyword content
+  if (lower.includes('blazer') || lower.includes('trousers') || lower.includes('office')) return 'work and office';
+  if (lower.includes('jogger') || lower.includes('athleisure') || lower.includes('sport')) return 'gym and athleisure';
+  if (lower.includes('party') || lower.includes('sequin') || lower.includes('glitter')) return 'birthday party';
+  if (lower.includes('wedding') || lower.includes('formal') || lower.includes('elegant')) return 'formal events';
+  if (lower.includes('beach') || lower.includes('vacation') || lower.includes('resort')) return 'vacation';
+  if (lower.includes('brunch') || lower.includes('cafe') || lower.includes('sunday')) return 'brunch and cafes';
+  if (lower.includes('festival') || lower.includes('concert') || lower.includes('boho')) return 'festivals and events';
+  if (lower.includes('date') || lower.includes('night') || lower.includes('dinner')) return 'date night';
+  
+  return 'casual';
+}
 
 function getSeason(keyword) {
   const lower = keyword.toLowerCase();
@@ -336,6 +529,7 @@ async function main() {
     images: (imagesByKeyword[m.keyword]?.length ? imagesByKeyword[m.keyword] : imagePool.slice(0, IMAGES_PER_TREND)) || [],
     whyTrending: getWhyTrending(m.keyword, m.score),
     season: getSeason(m.keyword),
+    occasion: getOccasion(m.keyword),
   }));
 
   const payload = {
