@@ -57,9 +57,16 @@ const KEYWORDS = [
   'statement earrings',
   
   // Birthday Party
+  'birthday party dress',
   'birthday outfit women',
+  'birthday celebration outfit',
   'party dress',
+  'party wear women',
   'sequin dress',
+  'glitter dress',
+  'sparkle dress',
+  'celebration outfit',
+  'festive party dress',
   'animal print',
   'platform shoes',
   'pearl necklace',
@@ -204,9 +211,16 @@ const OCCASION_MAP = {
   'statement earrings': 'date night',
   
   // Birthday Party
+  'birthday party dress': 'birthday party',
   'birthday outfit women': 'birthday party',
+  'birthday celebration outfit': 'birthday party',
   'party dress': 'birthday party',
+  'party wear women': 'birthday party',
   'sequin dress': 'birthday party',
+  'glitter dress': 'birthday party',
+  'sparkle dress': 'birthday party',
+  'celebration outfit': 'birthday party',
+  'festive party dress': 'birthday party',
   'animal print': 'birthday party',
   'platform shoes': 'birthday party',
   'pearl necklace': 'birthday party',
@@ -288,7 +302,7 @@ function getOccasion(keyword) {
   // Fallback detection based on keyword content
   if (lower.includes('blazer') || lower.includes('trousers') || lower.includes('office')) return 'work and office';
   if (lower.includes('jogger') || lower.includes('athleisure') || lower.includes('sport')) return 'gym and athleisure';
-  if (lower.includes('party') || lower.includes('sequin') || lower.includes('glitter')) return 'birthday party';
+  if (lower.includes('party') || lower.includes('sequin') || lower.includes('glitter') || lower.includes('sparkle') || lower.includes('celebration') || lower.includes('festive') || lower.includes('birthday')) return 'birthday party';
   if (lower.includes('bridal') || lower.includes('bride') || lower.includes('marriage') || lower.includes('lehenga') || lower.includes('saree')) return 'marriage and bride';
   if (lower.includes('formal') || lower.includes('elegant')) return 'formal events';
   if (lower.includes('beach') || lower.includes('vacation') || lower.includes('resort')) return 'vacation';
@@ -461,6 +475,13 @@ function getFallbackSearchTerms(keyword) {
     'bridal saree': ['bride saree', 'wedding saree', 'indian wedding dress'],
     'marriage dress': ['wedding dress', 'bridal dress', 'bride outfit'],
     'bride jewelry': ['bridal jewelry', 'wedding jewelry', 'bride accessories'],
+    'birthday party dress': ['birthday outfit', 'party dress', 'sequin dress outfit'],
+    'birthday celebration outfit': ['birthday outfit', 'party dress', 'celebration dress'],
+    'party wear women': ['party dress', 'party outfit', 'celebration outfit'],
+    'glitter dress': ['sequin dress', 'sparkle dress', 'party dress outfit'],
+    'sparkle dress': ['sequin dress', 'party dress', 'glitter outfit'],
+    'celebration outfit': ['party dress', 'birthday outfit', 'festive dress'],
+    'festive party dress': ['party dress', 'sequin dress', 'celebration outfit'],
   };
   const w1 = keyword.split(' ')[0];
   const w2 = keyword.split(' ').slice(0, 2).join(' ');
