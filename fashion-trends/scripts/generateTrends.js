@@ -548,10 +548,18 @@ async function main() {
     occasion: getOccasion(m.keyword),
   }));
 
+  const byOccasion = {};
+  for (const t of trends) {
+    const occ = t.occasion || 'casual';
+    if (!byOccasion[occ]) byOccasion[occ] = [];
+    byOccasion[occ].push(t);
+  }
+
   const payload = {
     generatedAt: new Date().toISOString(),
     updateFrequency: '6 hours',
     trends,
+    byOccasion,
   };
 
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
