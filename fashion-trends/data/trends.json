@@ -1,59 +1,87 @@
 {
-  "generatedAt": "2026-02-02T06:07:11.977Z",
+  "generatedAt": "2026-02-02T07:03:57.739Z",
   "updateFrequency": "6 hours",
   "trends": [
     {
       "name": "romper",
-      "score": 74,
-      "averageInterest": 73.3,
-      "trendSlope": 0.3,
+      "score": 75,
+      "averageInterest": 74.3,
+      "trendSlope": 0.28,
       "images": [
-        "https://images.unsplash.com/photo-1629285483773-6b5cde2171d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxyb21wZXJ8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1685703206868-a242da45deca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxyb21wZXJ8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1658563101265-28b720142029?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxyb21wZXJ8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1767077280665-c3e251378f9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxyb21wZXJ8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1768982596945-97c5aa2be5d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHJvbXBlciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768803968260-3dab844c1476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHJvbXBlciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768982596726-c01dd8a8af32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHJvbXBlciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768803968265-1385a31e2be5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHJvbXBlciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Strong search interest for \"romper\" on Google Trends this period.",
       "season": "winter"
     },
     {
-      "name": "sheer top",
-      "score": 70,
-      "averageInterest": 69.2,
-      "trendSlope": 0.37,
+      "name": "bodycon dress",
+      "score": 72,
+      "averageInterest": 71.5,
+      "trendSlope": 0.22,
       "images": [
-        "https://images.unsplash.com/photo-1704736474999-ce3c5b155677?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzaGVlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1685848253981-bb74dabc5d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzaGVlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1760705186352-b89c8714c107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzaGVlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769709333473-06adc2cb8fbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzaGVlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNjR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1698180687375-78efdf4f79a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGJvZHljb24lMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1626002770119-9f5e411f4c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGJvZHljb24lMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1646932520067-81bdc09af07a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGJvZHljb24lMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1671209085711-179517985682?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGJvZHljb24lMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Strong search interest for \"bodycon dress\" on Google Trends this period.",
+      "season": "winter"
+    },
+    {
+      "name": "sheer top",
+      "score": 71,
+      "averageInterest": 69.9,
+      "trendSlope": 0.43,
+      "images": [
+        "https://images.unsplash.com/photo-1723277171985-07c20f1876e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNoZWVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1636281774812-48e8ef62f768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHNoZWVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1723985427774-b8f0e596f52a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHNoZWVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733832193883-8880a8551424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHNoZWVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Strong search interest for \"sheer top\" on Google Trends this period.",
       "season": "winter"
     },
     {
-      "name": "satin dress",
-      "score": 68,
-      "averageInterest": 67.9,
-      "trendSlope": 0.3,
+      "name": "bucket hat",
+      "score": 70,
+      "averageInterest": 69.8,
+      "trendSlope": 0.29,
       "images": [
-        "https://images.unsplash.com/photo-1704775990154-b87562565d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzYXRpbiUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765229279946-f265fa703385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzYXRpbiUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1704775983177-8ae543524081?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzYXRpbiUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765278248747-632a1f60fbab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzYXRpbiUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1620686847763-2e234d23e825?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGJ1Y2tldCUyMGhhdCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1758300555321-fe727a612b6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGJ1Y2tldCUyMGhhdCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1666932346794-72e066a5b6bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGJ1Y2tldCUyMGhhdCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1639619686040-2e257be4a253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGJ1Y2tldCUyMGhhdCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"satin dress\" on Google Trends.",
+      "whyTrending": "Strong search interest for \"bucket hat\" on Google Trends this period.",
+      "season": "winter"
+    },
+    {
+      "name": "shirt dress",
+      "score": 68,
+      "averageInterest": 67.6,
+      "trendSlope": 0.12,
+      "images": [
+        "https://images.unsplash.com/photo-1768803968298-e31d64afee56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNoaXJ0JTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1601304744448-48f638071432?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHNoaXJ0JTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1764238385223-bb65063d9603?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHNoaXJ0JTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768803968304-79f51c3e344a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHNoaXJ0JTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzc3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Growing search interest for \"shirt dress\" on Google Trends.",
       "season": "winter"
     },
     {
       "name": "pearl necklace",
-      "score": 66,
-      "averageInterest": 65.8,
-      "trendSlope": 0.17,
+      "score": 65,
+      "averageInterest": 65,
+      "trendSlope": 0.18,
       "images": [
-        "https://images.unsplash.com/photo-1604303307920-e8823eb14fa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxwZWFybCUyMG5lY2tsYWNlfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxwZWFybCUyMG5lY2tsYWNlfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1654699991520-aaaf4dd2608b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxwZWFybCUyMG5lY2tsYWNlfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1595345705177-ffe090eb0784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxwZWFybCUyMG5lY2tsYWNlfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1767785829225-2f6d286c4cf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHBlYXJsJTIwbmVja2xhY2UlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1690322041787-dc67d0624a0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHBlYXJsJTIwbmVja2xhY2UlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1560233144-905d47165782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHBlYXJsJTIwbmVja2xhY2UlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1585409351049-f0d83b76c5dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHBlYXJsJTIwbmVja2xhY2UlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OHww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"pearl necklace\" on Google Trends.",
       "season": "winter"
@@ -61,407 +89,501 @@
     {
       "name": "straight leg jeans",
       "score": 64,
-      "averageInterest": 64,
+      "averageInterest": 63.7,
       "trendSlope": 0.13,
       "images": [
-        "https://images.unsplash.com/photo-1763499390186-f455a1c49323?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzdHJhaWdodCUyMGxlZyUyMGplYW5zfGVufDB8fHx8MTc2OTk2MDM2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763499389975-f27898185f17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzdHJhaWdodCUyMGxlZyUyMGplYW5zfGVufDB8fHx8MTc2OTk2MDM2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzdHJhaWdodCUyMGxlZyUyMGplYW5zfGVufDB8fHx8MTc2OTk2MDM2OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1663031037122-01e1ef272499?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzdHJhaWdodCUyMGxlZyUyMGplYW5zfGVufDB8fHx8MTc2OTk2MDM2OXww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1540736103035-48f02f47e90d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHN0cmFpZ2h0JTIwbGVnJTIwamVhbnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1716032583442-ee716d40fc1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHN0cmFpZ2h0JTIwbGVnJTIwamVhbnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1579429092795-c8ad10284521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHN0cmFpZ2h0JTIwbGVnJTIwamVhbnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1685435690165-97ba05cb8c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHN0cmFpZ2h0JTIwbGVnJTIwamVhbnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc3OXww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"straight leg jeans\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "y2k fashion",
-      "score": 63,
-      "averageInterest": 62,
-      "trendSlope": 0.4,
+      "name": "wide leg pants",
+      "score": 61,
+      "averageInterest": 61.2,
+      "trendSlope": 0.06,
       "images": [
-        "https://images.unsplash.com/photo-1723855992942-d73225a8622e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx5MmslMjBmYXNoaW9ufGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx5MmslMjBmYXNoaW9ufGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1730328300151-4c5e58bf5fcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx5MmslMjBmYXNoaW9ufGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1768845431912-a5b1861767af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx5MmslMjBmYXNoaW9ufGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1767077281256-460358ce390a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHdpZGUlMjBsZWclMjBwYW50cyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768289222470-d769796edc14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHdpZGUlMjBsZWclMjBwYW50cyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1767785829347-cc13bd969514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHdpZGUlMjBsZWclMjBwYW50cyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768289222413-2ed4528bee86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHdpZGUlMjBsZWclMjBwYW50cyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"y2k fashion\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"wide leg pants\" on Google Trends.",
       "season": "winter"
     },
     {
       "name": "corset top",
-      "score": 62,
-      "averageInterest": 61.3,
-      "trendSlope": 0.38,
+      "score": 60,
+      "averageInterest": 59.1,
+      "trendSlope": 0.39,
       "images": [
-        "https://images.unsplash.com/photo-1717616870208-a805ea578555?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjb3JzZXQlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1768745534287-0e41db00cfaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjb3JzZXQlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1768745534089-70a5daa34866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjb3JzZXQlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1768745540730-a5402b8efcd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjb3JzZXQlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzY1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1750032572234-365e7a93992e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNvcnNldCUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1750032651184-dcf6808da7c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNvcnNldCUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1580713864129-e9d157c6b63d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNvcnNldCUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1669024801807-bb9ea3234738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNvcnNldCUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzgwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"corset top\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "vest outfit",
-      "score": 60,
-      "averageInterest": 59.9,
-      "trendSlope": -0.01,
-      "images": [
-        "https://images.unsplash.com/photo-1675277714353-376f525d935a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx2ZXN0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1758400309581-855c5dcb355a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx2ZXN0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1728402525443-92839fc739ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx2ZXN0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1728402525351-c43d8fdf8027?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx2ZXN0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM3OHww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Growing search interest for \"vest outfit\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "tennis skirt",
-      "score": 58,
-      "averageInterest": 58.2,
-      "trendSlope": 0.04,
-      "images": [
-        "https://images.unsplash.com/photo-1750187503778-d919210e8254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx0ZW5uaXMlMjBza2lydHxlbnwwfHx8fDE3Njk5NjAzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1750696946663-04486b043566?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx0ZW5uaXMlMjBza2lydHxlbnwwfHx8fDE3Njk5NjAzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1639564166502-e6b287fbb0ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx0ZW5uaXMlMjBza2lydHxlbnwwfHx8fDE3Njk5NjAzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1760570296466-9e43fac32017?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx0ZW5uaXMlMjBza2lydHxlbnwwfHx8fDE3Njk5NjAzNjd8MA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Growing search interest for \"tennis skirt\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "mary jane shoes",
-      "score": 58,
-      "averageInterest": 57.9,
-      "trendSlope": -0.02,
-      "images": [
-        "https://images.unsplash.com/photo-1622012339635-9b94f510443b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtYXJ5JTIwamFuZSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1758542988948-b95a6c4aa68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtYXJ5JTIwamFuZSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1535482266177-88a9e16298ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtYXJ5JTIwamFuZSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1544155815-87a399a4712b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtYXJ5JTIwamFuZSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3Mnww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Growing search interest for \"mary jane shoes\" on Google Trends.",
-      "season": "winter"
-    },
-    {
       "name": "chain bag",
-      "score": 58,
-      "averageInterest": 57.7,
-      "trendSlope": 0.02,
+      "score": 59,
+      "averageInterest": 58.6,
+      "trendSlope": 0.03,
       "images": [
-        "https://images.unsplash.com/photo-1758817991388-54a98d456317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjaGFpbiUyMGJhZ3xlbnwwfHx8fDE3Njk5NjAzNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1590739225287-bd31519780c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjaGFpbiUyMGJhZ3xlbnwwfHx8fDE3Njk5NjAzNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1741787324197-c1f195a3e1c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjaGFpbiUyMGJhZ3xlbnwwfHx8fDE3Njk5NjAzNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1603567364858-8e3362d9f040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjaGFpbiUyMGJhZ3xlbnwwfHx8fDE3Njk5NjAzNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1711113456416-7d96c9bc31fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNoYWluJTIwYmFnJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1624914990379-f2082e413b4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNoYWluJTIwYmFnJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1764568912406-67bbcfd752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNoYWluJTIwYmFnJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1512201078372-9c6b2a0d528a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNoYWluJTIwYmFnJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"chain bag\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "hoodie dress",
-      "score": 57,
-      "averageInterest": 56.8,
-      "trendSlope": -0.17,
+      "name": "animal print",
+      "score": 58,
+      "averageInterest": 57.2,
+      "trendSlope": 0.14,
       "images": [
-        "https://images.unsplash.com/photo-1637240817991-5d08eaffc03b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxob29kaWUlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1637241387991-a3a2bab649f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxob29kaWUlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763735134124-fb11b599040d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxob29kaWUlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1601136610007-1ecf5706c908?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxob29kaWUlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1750032572234-365e7a93992e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGFuaW1hbCUyMHByaW50JTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1611653535673-8bfc5986dce0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGFuaW1hbCUyMHByaW50JTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768221677471-086934027127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGFuaW1hbCUyMHByaW50JTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1764845181515-de3b72a9be84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGFuaW1hbCUyMHByaW50JTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"hoodie dress\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"animal print\" on Google Trends.",
       "season": "winter"
     },
     {
       "name": "off shoulder top",
       "score": 57,
-      "averageInterest": 56.3,
-      "trendSlope": 0.2,
+      "averageInterest": 56.7,
+      "trendSlope": 0.23,
       "images": [
-        "https://images.unsplash.com/photo-1587070297440-7b8a62eb01c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxvZmYlMjBzaG91bGRlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1759096326551-9ad3745f0431?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxvZmYlMjBzaG91bGRlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765560220179-faa4f834701c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxvZmYlMjBzaG91bGRlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765560219981-e04e0d2ff010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxvZmYlMjBzaG91bGRlciUyMHRvcHxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1768929096172-ca7a26ce9630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG9mZiUyMHNob3VsZGVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1676040038506-0932c64a0223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG9mZiUyMHNob3VsZGVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1723277171985-07c20f1876e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG9mZiUyMHNob3VsZGVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1751752928735-98b8b7696bde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG9mZiUyMHNob3VsZGVyJTIwdG9wJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"off shoulder top\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "platform shoes",
-      "score": 55,
-      "averageInterest": 54.5,
+      "name": "mary jane shoes",
+      "score": 56,
+      "averageInterest": 56.4,
       "trendSlope": 0.04,
       "images": [
-        "https://images.unsplash.com/photo-1535038872957-c20dea0c6f26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxwbGF0Zm9ybSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1719658857635-f48530c3cd78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxwbGF0Zm9ybSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1758542988948-b95a6c4aa68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxwbGF0Zm9ybSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1749251456867-3f8f78b01664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxwbGF0Zm9ybSUyMHNob2VzfGVufDB8fHx8MTc2OTk2MDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1758542988948-b95a6c4aa68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG1hcnklMjBqYW5lJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1765099271862-29aa1629f2a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG1hcnklMjBqYW5lJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1676808373053-de1f0f9b2119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG1hcnklMjBqYW5lJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1755427476751-ab10970025df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG1hcnklMjBqYW5lJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4M3ww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"platform shoes\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"mary jane shoes\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "vest outfit",
+      "score": 56,
+      "averageInterest": 56.1,
+      "trendSlope": -0.08,
+      "images": [
+        "https://images.unsplash.com/photo-1763558983896-71c620874ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHZlc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1669024801807-bb9ea3234738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHZlc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1734314019859-1dd670248657?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHZlc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1536085014870-6a0b5c49f5aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHZlc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Growing search interest for \"vest outfit\" on Google Trends.",
       "season": "winter"
     },
     {
       "name": "crossbody bag",
       "score": 55,
-      "averageInterest": 54.6,
+      "averageInterest": 54.7,
       "trendSlope": 0.11,
       "images": [
-        "https://images.unsplash.com/photo-1718622795525-2295971921ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjcm9zc2JvZHklMjBiYWd8ZW58MHx8fHwxNzY5OTYwMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1709898838174-83c3e155654c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjcm9zc2JvZHklMjBiYWd8ZW58MHx8fHwxNzY5OTYwMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1605983138993-70baf11475f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjcm9zc2JvZHklMjBiYWd8ZW58MHx8fHwxNzY5OTYwMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1706008003391-fdf79dcdf5a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjcm9zc2JvZHklMjBiYWd8ZW58MHx8fHwxNzY5OTYwMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1768651925914-76d953fb864a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNyb3NzYm9keSUyMGJhZyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1764568912406-67bbcfd752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNyb3NzYm9keSUyMGJhZyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1567744875520-cf9c27fbb53b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNyb3NzYm9keSUyMGJhZyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1624914990379-f2082e413b4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNyb3NzYm9keSUyMGJhZyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"crossbody bag\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "pleated skirt",
+      "name": "platform shoes",
+      "score": 53,
+      "averageInterest": 53.1,
+      "trendSlope": 0.02,
+      "images": [
+        "https://images.unsplash.com/photo-1758542988948-b95a6c4aa68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHBsYXRmb3JtJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1766104796564-73d589723c0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHBsYXRmb3JtJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1749251456867-3f8f78b01664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHBsYXRmb3JtJTIwc2hvZXMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4NXww&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Growing search interest for \"platform shoes\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "cropped cardigan",
       "score": 53,
       "averageInterest": 52.7,
-      "trendSlope": -0.08,
+      "trendSlope": -0.22,
       "images": [
-        "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxwbGVhdGVkJTIwc2tpcnR8ZW58MHx8fHwxNzY5OTYwMzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762343041454-8f1fdd459811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxwbGVhdGVkJTIwc2tpcnR8ZW58MHx8fHwxNzY5OTYwMzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762342685668-a76f1a57d7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxwbGVhdGVkJTIwc2tpcnR8ZW58MHx8fHwxNzY5OTYwMzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762343036425-f20316fd98ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxwbGVhdGVkJTIwc2tpcnR8ZW58MHx8fHwxNzY5OTYwMzc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1626002770119-9f5e411f4c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNyb3BwZWQlMjBjYXJkaWdhbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1676040038506-0932c64a0223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNyb3BwZWQlMjBjYXJkaWdhbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNyb3BwZWQlMjBjYXJkaWdhbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1764568912406-67bbcfd752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNyb3BwZWQlMjBjYXJkaWdhbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"pleated skirt\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"cropped cardigan\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "cargo pants women",
-      "score": 52,
-      "averageInterest": 51.2,
-      "trendSlope": 0.16,
+      "name": "hoodie dress",
+      "score": 49,
+      "averageInterest": 49.4,
+      "trendSlope": -0.01,
       "images": [
-        "https://images.unsplash.com/photo-1753541902218-b3cbee8632c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjYXJnbyUyMHBhbnRzJTIwd29tZW58ZW58MHx8fHwxNzY5OTYwMzc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1632287459581-2fa22b3011fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjYXJnbyUyMHBhbnRzJTIwd29tZW58ZW58MHx8fHwxNzY5OTYwMzc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1719473448126-eb1159ec5242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjYXJnbyUyMHBhbnRzJTIwd29tZW58ZW58MHx8fHwxNzY5OTYwMzc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1755059703487-8551d6875f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjYXJnbyUyMHBhbnRzJTIwd29tZW58ZW58MHx8fHwxNzY5OTYwMzc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1509946458702-4378df1e2560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGhvb2RpZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1578470507807-3fc541d5f544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGhvb2RpZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1641735563696-020765b93506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGhvb2RpZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1745825219087-802850857308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGhvb2RpZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTc4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"cargo pants women\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"hoodie dress\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "wide leg jeans",
-      "score": 52,
-      "averageInterest": 51.8,
-      "trendSlope": -0.04,
+      "name": "wrap dress",
+      "score": 49,
+      "averageInterest": 48.6,
+      "trendSlope": 0.08,
       "images": [
-        "https://images.unsplash.com/photo-1760551732069-2c1cad56adf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3aWRlJTIwbGVnJTIwamVhbnN8ZW58MHx8fHwxNzY5OTYwMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762343932498-1504758f9c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3aWRlJTIwbGVnJTIwamVhbnN8ZW58MHx8fHwxNzY5OTYwMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769183960182-a54d4db387a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3aWRlJTIwbGVnJTIwamVhbnN8ZW58MHx8fHwxNzY5OTYwMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1750857740066-81ce0df6d398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3aWRlJTIwbGVnJTIwamVhbnN8ZW58MHx8fHwxNzY5OTYwMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1769349661389-0737f39a8507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHdyYXAlMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1636924003227-1895fc75857e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHdyYXAlMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1630296269180-d0d6d61f02a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHdyYXAlMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1761702790943-82bb9ce2be14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHdyYXAlMjBkcmVzc3xlbnwwfHx8fDE3NzAwMTU3ODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"wide leg jeans\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"wrap dress\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "blazer dress",
-      "score": 51,
-      "averageInterest": 51.1,
-      "trendSlope": -0.11,
+      "name": "square neck top",
+      "score": 49,
+      "averageInterest": 48.5,
+      "trendSlope": 0.34,
       "images": [
-        "https://images.unsplash.com/photo-1697663426729-d9ff755ba4ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxibGF6ZXIlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1697663426683-530277eb4fbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxibGF6ZXIlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1697663426713-82f6bab7d84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxibGF6ZXIlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1646888000770-5fa873c69e6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxibGF6ZXIlMjBkcmVzc3xlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1623577840329-201565179c92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHNxdWFyZSUyMG5lY2slMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1597582927786-bae43be837a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHNxdWFyZSUyMG5lY2slMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1750082830167-174f4fe10558?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHNxdWFyZSUyMG5lY2slMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1699120490758-f028f28a7b6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHNxdWFyZSUyMG5lY2slMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc4OHww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Growing search interest for \"blazer dress\" on Google Trends.",
+      "whyTrending": "Growing search interest for \"square neck top\" on Google Trends.",
       "season": "winter"
     },
     {
       "name": "oversized blazer",
-      "score": 43,
-      "averageInterest": 43.1,
-      "trendSlope": -0.16,
+      "score": 48,
+      "averageInterest": 47.1,
+      "trendSlope": 0.24,
       "images": [
-        "https://images.unsplash.com/photo-1730715145729-bf929994c328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxvdmVyc2l6ZWQlMjBibGF6ZXJ8ZW58MHx8fHwxNzY5OTYwMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1730715145675-8186093365fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxvdmVyc2l6ZWQlMjBibGF6ZXJ8ZW58MHx8fHwxNzY5OTYwMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1730715145730-51b8ab36851e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxvdmVyc2l6ZWQlMjBibGF6ZXJ8ZW58MHx8fHwxNzY5OTYwMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1766951087359-fe48ea4f2796?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxvdmVyc2l6ZWQlMjBibGF6ZXJ8ZW58MHx8fHwxNzY5OTYwMzgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1636281774812-48e8ef62f768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG92ZXJzaXplZCUyMGJsYXplciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1623577840329-201565179c92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG92ZXJzaXplZCUyMGJsYXplciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1723277171985-07c20f1876e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG92ZXJzaXplZCUyMGJsYXplciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1741174174065-a1312dfa9c0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG92ZXJzaXplZCUyMGJsYXplciUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Growing search interest for \"oversized blazer\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "oversized fit",
-      "score": 36,
-      "averageInterest": 35.6,
-      "trendSlope": -0.16,
+      "name": "statement earrings",
+      "score": 46,
+      "averageInterest": 45,
+      "trendSlope": 0.57,
       "images": [
-        "https://images.unsplash.com/photo-1624919429780-204d0489d055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxvdmVyc2l6ZWQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1764698192655-2beff44ad6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxvdmVyc2l6ZWQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1764698192271-d6888c24e071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxvdmVyc2l6ZWQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1767249631933-4d711b0eb7b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxvdmVyc2l6ZWQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxOHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1762777777705-5e5e0ac1027d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHN0YXRlbWVudCUyMGVhcnJpbmdzJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1765436607860-31ad5416d88d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHN0YXRlbWVudCUyMGVhcnJpbmdzJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1763637882146-0a276557d2d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHN0YXRlbWVudCUyMGVhcnJpbmdzJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1767785829269-e0fd240df34c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHN0YXRlbWVudCUyMGVhcnJpbmdzJTIwZmFzaGlvbiUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Growing search interest for \"statement earrings\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "halter top",
+      "score": 39,
+      "averageInterest": 37.9,
+      "trendSlope": 0.34,
+      "images": [
+        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGhhbHRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1561444210-d225f3e3c92c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGhhbHRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733832193811-d2a49e5946ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGhhbHRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1582142306909-195724d33ffc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGhhbHRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzg5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"halter top\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "oversized fit",
+      "score": 30,
+      "averageInterest": 30.5,
+      "trendSlope": -0.07,
+      "images": [
+        "https://images.unsplash.com/photo-1741174174065-a1312dfa9c0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG92ZXJzaXplZCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1746825223991-aedd55abffcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG92ZXJzaXplZCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1728485299033-a3b6e98cb5b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG92ZXJzaXplZCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1741174174497-39b1222e78ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG92ZXJzaXplZCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkxfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"oversized fit\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "cargo skirt",
-      "score": 24,
-      "averageInterest": 23.5,
-      "trendSlope": -0.41,
+      "name": "puff sleeve top",
+      "score": 25,
+      "averageInterest": 24,
+      "trendSlope": 0.42,
       "images": [
-        "https://images.unsplash.com/photo-1661839750839-af5c5ed2a7b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjYXJnbyUyMHNraXJ0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1556747439-3b96858b9d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjYXJnbyUyMHNraXJ0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1732263993928-f4484923989d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjYXJnbyUyMHNraXJ0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1660845472150-b6673bf53c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjYXJnbyUyMHNraXJ0JTIwb3V0Zml0fGVufDB8fHx8MTc2OTk2MDM4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1763637896840-9f3cb4529d01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHB1ZmYlMjBzbGVldmUlMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1765269303599-f0c2f0b62172?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHB1ZmYlMjBzbGVldmUlMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHB1ZmYlMjBzbGVldmUlMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1637248666370-70a4a603c23e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHB1ZmYlMjBzbGVldmUlMjB0b3AlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5MXww&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"puff sleeve top\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "cargo skirt",
+      "score": 22,
+      "averageInterest": 22.3,
+      "trendSlope": -0.2,
+      "images": [
+        "https://images.unsplash.com/photo-1609561515321-bd13ea22d74a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNhcmdvJTIwc2tpcnQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1609211757512-1207250c0306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNhcmdvJTIwc2tpcnQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1604206218285-8d7b8b418b0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNhcmdvJTIwc2tpcnQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1726194159025-506ff7792686?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNhcmdvJTIwc2tpcnQlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"cargo skirt\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "street style fashion",
-      "score": 14,
-      "averageInterest": 13.6,
-      "trendSlope": -0.4,
+      "name": "tailored trousers",
+      "score": 18,
+      "averageInterest": 17.2,
+      "trendSlope": 0.49,
       "images": [
-        "https://images.unsplash.com/photo-1632693217835-b482d9ca9ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1635351035654-5f82c2c06101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1676808325981-3aa9a37347c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1676808373053-de1f0f9b2119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTczfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1755059703487-8551d6875f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHRhaWxvcmVkJTIwdHJvdXNlcnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1555928801-596c2dde2ff2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHRhaWxvcmVkJTIwdHJvdXNlcnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1688535823258-9927ab196d34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHRhaWxvcmVkJTIwdHJvdXNlcnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1764568912406-67bbcfd752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHRhaWxvcmVkJTIwdHJvdXNlcnMlMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5Mnww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Steady search interest for \"street style fashion\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "cottagecore dress",
-      "score": 14,
-      "averageInterest": 11.7,
-      "trendSlope": 1.11,
-      "images": [
-        "https://images.unsplash.com/photo-1658330582384-310c05c220f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjb3R0YWdlY29yZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1761711308618-3d6debd97006?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjb3R0YWdlY29yZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1688338980490-da57a1599a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjb3R0YWdlY29yZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1729206819594-b71b29ce631b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjb3R0YWdlY29yZSUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"cottagecore dress\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "minimalist outfit",
-      "score": 9,
-      "averageInterest": 9.3,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1504198458649-3128b932f49e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1642718913492-27a6bee11161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769107805528-964f4de0e342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NXww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"minimalist outfit\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "maxi skirt outfit",
-      "score": 9,
-      "averageInterest": 7.5,
-      "trendSlope": 0.5,
-      "images": [
-        "https://images.unsplash.com/photo-1764804636349-67102fca8f91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtYXhpJTIwc2tpcnQlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1615898290907-0ad011905389?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtYXhpJTIwc2tpcnQlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1507274301514-7de9f124ff54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtYXhpJTIwc2tpcnQlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1556747439-3b96858b9d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtYXhpJTIwc2tpcnQlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTc2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"maxi skirt outfit\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "linen summer dress",
-      "score": 6,
-      "averageInterest": 5.7,
-      "trendSlope": 0.33,
-      "images": [
-        "https://images.unsplash.com/photo-1658251007077-cbf0edfe1a2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxsaW5lbiUyMHN1bW1lciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769107805528-964f4de0e342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxsaW5lbiUyMHN1bW1lciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1764298493197-a1c1cce57800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxsaW5lbiUyMHN1bW1lciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1617734876762-f5659a065b06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxsaW5lbiUyMHN1bW1lciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxMDE3N3ww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"linen summer dress\" on Google Trends.",
-      "season": "summer"
-    },
-    {
-      "name": "monochrome outfit",
-      "score": 6,
-      "averageInterest": 5,
-      "trendSlope": 0.28,
-      "images": [
-        "https://images.unsplash.com/photo-1763609973499-f2791a7e6a61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtb25vY2hyb21lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763609973444-9a1d47045a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtb25vY2hyb21lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1744551154549-894755f5c43f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtb25vY2hyb21lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1717034036921-77000ba6c502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtb25vY2hyb21lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OHww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"monochrome outfit\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "joggers outfit",
-      "score": 6,
-      "averageInterest": 5.7,
-      "trendSlope": 0.14,
-      "images": [
-        "https://images.unsplash.com/photo-1605638076057-b89962f48ae4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxqb2dnZXJzJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1600052930284-9d5fa4950b45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxqb2dnZXJzJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1598794960371-8ec90cc734a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxqb2dnZXJzJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1679769706345-da57a319c25f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxqb2dnZXJzJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3OXww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"joggers outfit\" on Google Trends.",
+      "whyTrending": "Steady search interest for \"tailored trousers\" on Google Trends.",
       "season": "winter"
     },
     {
       "name": "cold shoulder top",
-      "score": 5,
-      "averageInterest": 4.3,
-      "trendSlope": 0.31,
+      "score": 14,
+      "averageInterest": 12.4,
+      "trendSlope": 0.77,
       "images": [
-        "https://images.unsplash.com/photo-1768156726705-b9c056cf30ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjb2xkJTIwc2hvdWxkZXIlMjB0b3B8ZW58MHx8fHwxNzcwMDEwMTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1615997380705-504484cd99c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjb2xkJTIwc2hvdWxkZXIlMjB0b3B8ZW58MHx8fHwxNzcwMDEwMTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1658196253246-089fba54a35e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjb2xkJTIwc2hvdWxkZXIlMjB0b3B8ZW58MHx8fHwxNzcwMDEwMTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1599817878414-43ef36677cf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjb2xkJTIwc2hvdWxkZXIlMjB0b3B8ZW58MHx8fHwxNzcwMDEwMTc5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNvbGQlMjBzaG91bGRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1705784405513-b668b6d7c76d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNvbGQlMjBzaG91bGRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1597582927786-bae43be837a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNvbGQlMjBzaG91bGRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1730714311842-02cbac4e957f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNvbGQlMjBzaG91bGRlciUyMHRvcCUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1NzkzfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"cold shoulder top\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "coquette outfit",
-      "score": 4,
-      "averageInterest": 3.9,
+      "name": "joggers outfit",
+      "score": 8,
+      "averageInterest": 8.2,
+      "trendSlope": 0.17,
+      "images": [
+        "https://images.unsplash.com/photo-1737231808017-43e87b998685?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGpvZ2dlcnMlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1737231808749-246ae1d6d2d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGpvZ2dlcnMlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1737230986087-87e28f23b013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGpvZ2dlcnMlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1533941579235-0174acafe29a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGpvZ2dlcnMlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"joggers outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "monochrome outfit",
+      "score": 6,
+      "averageInterest": 5.4,
+      "trendSlope": 0.37,
+      "images": [
+        "https://images.unsplash.com/photo-1763558978011-55404124a148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG1vbm9jaHJvbWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1759873911541-8221a5dc670c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG1vbm9jaHJvbWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1759873911575-0e4eec0c246c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG1vbm9jaHJvbWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1676040038506-0932c64a0223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG1vbm9jaHJvbWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"monochrome outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "color block fashion",
+      "score": 5,
+      "averageInterest": 2.4,
+      "trendSlope": 1.11,
+      "images": [
+        "https://images.unsplash.com/photo-1768853968758-bba45ec2f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNvbG9yJTIwYmxvY2slMjBmYXNoaW9ufGVufDB8fHx8MTc3MDAxNTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1690918845429-ebe653c94e5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNvbG9yJTIwYmxvY2slMjBmYXNoaW9ufGVufDB8fHx8MTc3MDAxNTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1531299579650-6158afb14c54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNvbG9yJTIwYmxvY2slMjBmYXNoaW9ufGVufDB8fHx8MTc3MDAxNTc5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1615903162221-b757b14b8000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNvbG9yJTIwYmxvY2slMjBmYXNoaW9ufGVufDB8fHx8MTc3MDAxNTc5NXww&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"color block fashion\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "graphic tee outfit",
+      "score": 3,
+      "averageInterest": 2.8,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1549413947-4757a901a36a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjb3F1ZXR0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1723277171985-07c20f1876e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjb3F1ZXR0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1556747439-3b96858b9d8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjb3F1ZXR0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjb3F1ZXR0ZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGdyYXBoaWMlMjB0ZWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1601217672201-cca23494ed2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGdyYXBoaWMlMjB0ZWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1641808895412-8d0464f08e02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGdyYXBoaWMlMjB0ZWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768853990312-0e20e64cf87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGdyYXBoaWMlMjB0ZWUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"graphic tee outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "trending outfits 2025",
+      "score": 2,
+      "averageInterest": 2.3,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1703192163780-2a4b87903da8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHRyZW5kaW5nJTIwb3V0Zml0cyUyMDIwMjV8ZW58MHx8fHwxNzcwMDE1Nzk3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"trending outfits 2025\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "coquette outfit",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1549413947-4757a901a36a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNvcXVldHRlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1580713864129-e9d157c6b63d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNvcXVldHRlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1676040038506-0932c64a0223?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNvcXVldHRlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1561444209-17feef437363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNvcXVldHRlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTc5N3ww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"coquette outfit\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "print mixing",
-      "score": 3,
-      "averageInterest": 3,
+      "name": "quiet luxury fashion",
+      "score": 0,
+      "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1612044706016-26c018b23f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxwcmludCUyMG1peGluZ3xlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1657921643881-e3a65af28da9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxwcmludCUyMG1peGluZ3xlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1518516278006-4aca92806257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxwcmludCUyMG1peGluZ3xlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1610813835315-9a93c5035c81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxwcmludCUyMG1peGluZ3xlbnwwfHx8fDE3NzAwMTAxODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1754746586607-3bc1cb058caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHF1aWV0JTIwbHV4dXJ5JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1673106020385-d7fd8fa77569?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHF1aWV0JTIwbHV4dXJ5JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1622051150293-3fc0097603dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHF1aWV0JTIwbHV4dXJ5JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1583791031159-af3c695f7d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHF1aWV0JTIwbHV4dXJ5JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Steady search interest for \"print mixing\" on Google Trends.",
+      "whyTrending": "Steady search interest for \"quiet luxury fashion\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "quiet luxury fashion",
-      "score": 2,
-      "averageInterest": 1.7,
+      "name": "cargo pants women",
+      "score": 0,
+      "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1759676026675-6a5fab68256a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxxdWlldCUyMGx1eHVyeSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1760452824452-f731d397a704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxxdWlldCUyMGx1eHVyeSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1755514838747-adfd34197d39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxxdWlldCUyMGx1eHVyeSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1676914333302-53615f404416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxxdWlldCUyMGx1eHVyeSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDEwMTgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1764568912406-67bbcfd752b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNhcmdvJTIwcGFudHMlMjB3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1593267656050-4cdd85d53c66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNhcmdvJTIwcGFudHMlMjB3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1645154110147-5fef32f90ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNhcmdvJTIwcGFudHMlMjB3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1755059703487-8551d6875f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNhcmdvJTIwcGFudHMlMjB3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Steady search interest for \"quiet luxury fashion\" on Google Trends.",
+      "whyTrending": "Steady search interest for \"cargo pants women\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "linen summer dress",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1718737654958-9b49716693bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGxpbmVuJTIwc3VtbWVyJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1626002770119-9f5e411f4c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGxpbmVuJTIwc3VtbWVyJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1669491477000-6e4ccc35a4ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGxpbmVuJTIwc3VtbWVyJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGxpbmVuJTIwc3VtbWVyJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1Nzk5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"linen summer dress\" on Google Trends.",
+      "season": "summer"
+    },
+    {
+      "name": "minimalist outfit",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1513188447171-ecf00455f051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG1pbmltYWxpc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1760551937420-f34b764b1256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG1pbmltYWxpc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1761891873744-eb181eb1334a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG1pbmltYWxpc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1763971922542-59c7609114f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG1pbmltYWxpc3QlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"minimalist outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "street style fashion",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1651742532452-d8bff6d1e544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU4MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU4MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258329-9868b90f456c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU4MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258699-d322dff9632c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU4MDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"street style fashion\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "wide leg jeans",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1762343291918-a227bf91a652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHdpZGUlMjBsZWclMjBqZWFucyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1762343291569-680a1efe1fbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHdpZGUlMjBsZWclMjBqZWFucyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1762343291672-4434dbabb537?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHdpZGUlMjBsZWclMjBqZWFucyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1716032583442-ee716d40fc1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHdpZGUlMjBsZWclMjBqZWFucyUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"wide leg jeans\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "cottagecore dress",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1679025907388-30694aebf154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNvdHRhZ2Vjb3JlJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1679025907297-75a26689313c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNvdHRhZ2Vjb3JlJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1626002770119-9f5e411f4c34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNvdHRhZ2Vjb3JlJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1743348230477-4705e9baa20e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNvdHRhZ2Vjb3JlJTIwZHJlc3N8ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"cottagecore dress\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "y2k fashion",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1563296842-5a343675e484?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHkyayUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1611022019674-b0be81be636f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHkyayUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1618806358014-a9ba02fc62d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHkyayUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1676790408057-b56c464beb0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHkyayUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDE1ODAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"y2k fashion\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -470,10 +592,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1768853990312-0e20e64cf87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxhdGhsZWlzdXJlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1637714619771-50f333a6066b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxhdGhsZWlzdXJlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1618355281951-a174b87198e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxhdGhsZWlzdXJlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1618355281911-84e6ec751d84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxhdGhsZWlzdXJlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1768929096095-8f379b34278b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGF0aGxlaXN1cmUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768929096150-9a76dc1d6560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGF0aGxlaXN1cmUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768929096133-1748d1fe5944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGF0aGxlaXN1cmUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768929096134-f45af7839e83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGF0aGxlaXN1cmUlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDE1ODAzfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"athleisure outfit\" on Google Trends.",
       "season": "winter"
@@ -484,12 +606,40 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1623421536280-fa8ae906ed1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxuZXV0cmFsJTIwdG9uZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1621341103818-01dada8c6ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxuZXV0cmFsJTIwdG9uZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1623421536303-3a61dcbf4c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxuZXV0cmFsJTIwdG9uZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1621341103897-962959c2cd90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxuZXV0cmFsJTIwdG9uZSUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTAxODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1648862513693-40f2207a066b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG5ldXRyYWwlMjB0b25lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1615903162221-b757b14b8000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG5ldXRyYWwlMjB0b25lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1763766276494-47ef4a546723?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG5ldXRyYWwlMjB0b25lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTgwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1728916976678-2a2576cab7a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG5ldXRyYWwlMjB0b25lJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxNTgwNHww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"neutral tone outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "maxi skirt outfit",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1615898290907-0ad011905389?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMG1heGklMjBza2lydCUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1677817946310-1d558aaf2ec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMG1heGklMjBza2lydCUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1591079823942-a86a154ccb05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMG1heGklMjBza2lydCUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1714207427812-ef765d0e6a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMG1heGklMjBza2lydCUyMG91dGZpdHxlbnwwfHx8fDE3NzAwMTU4MDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"maxi skirt outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "blazer dress",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1615348411055-3492a2c76ca2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGJsYXplciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1615349719958-8e6381dd2f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGJsYXplciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1615348294633-38751a1fdf8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGJsYXplciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTgwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1579539441712-e180bd122890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGJsYXplciUyMGRyZXNzfGVufDB8fHx8MTc3MDAxNTgwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"blazer dress\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -498,10 +648,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1769703078401-7afc96515a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxsYXllcmVkJTIwbmVja2xhY2UlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765036628279-ab736b47df04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxsYXllcmVkJTIwbmVja2xhY2UlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1766215525554-e67cb3ef3743?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxsYXllcmVkJTIwbmVja2xhY2UlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765365353680-9720fa2ff167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxsYXllcmVkJTIwbmVja2xhY2UlMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEwMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1731911656286-92bf1ebc87f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375441-e8ded0ce3605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375456-79be292cedb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375426-880a10bea9a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"layered necklace outfit\" on Google Trends.",
       "season": "winter"
@@ -512,10 +662,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1534639077088-d702bcf685e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMGZhc2hpb258ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1631050165089-6311e0d6c5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzdXN0YWluYWJsZSUyMGZhc2hpb258ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1596097198305-e4844a56ddb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzdXN0YWluYWJsZSUyMGZhc2hpb258ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1606053929013-311c13f97b5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzdXN0YWluYWJsZSUyMGZhc2hpb258ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1735553816769-7d30e5b1a19a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816645-8441289f6db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816867-88cd8496df58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816725-76d4fa5a374e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"sustainable fashion\" on Google Trends.",
       "season": "winter"
@@ -526,10 +676,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1678935908871-a72d8380baaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1565462905097-5e701c31dcfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx2aW50YWdlJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1525968681927-9cd76a0590a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx2aW50YWdlJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1557739266-ef64eca74983?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx2aW50YWdlJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1735553816887-95a2657d5fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816813-f7640e8e521c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532452-d8bff6d1e544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"vintage dress\" on Google Trends.",
       "season": "winter"
@@ -540,10 +690,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1584642425274-db2c9bf955a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtb20lMjBqZWFuc3xlbnwwfHx8fDE3Njk5NjAzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1584642520442-5c5fbe4e7427?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtb20lMjBqZWFuc3xlbnwwfHx8fDE3Njk5NjAzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1665931500392-c6f823b0e4d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtb20lMjBqZWFuc3xlbnwwfHx8fDE3Njk5NjAzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1661768227053-504d6857f5c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtb20lMjBqZWFuc3xlbnwwfHx8fDE3Njk5NjAzNjl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1651744258886-7987b4d3e949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532544-346cc809adb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258329-9868b90f456c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258699-d322dff9632c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"mom jeans\" on Google Trends.",
       "season": "winter"
@@ -554,10 +704,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1667468351770-73943a46a4c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjcm9wcGVkJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769183960136-32e01cecf896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjcm9wcGVkJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1756483510798-c1fe4e476ecd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjcm9wcGVkJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1766193229953-18ec97885584?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjcm9wcGVkJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1651744258527-2cab35d47596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651743679361-201259835e44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651828855150-ba40f6870a53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651828854976-4fa163b636ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"cropped jacket\" on Google Trends.",
       "season": "fall"
@@ -568,12 +718,26 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1658749580710-e19d2a3e3c61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzbGlwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1658749580722-4e1ae4577c0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzbGlwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1679025907388-30694aebf154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzbGlwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1662100807492-bad63d293b2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzbGlwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1708363390847-b4af54f45273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733311245658-3bfe7f9438e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733311156460-bb9cce46b106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733310925490-1011872200d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"slip dress\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "tennis skirt",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1733310925430-667f8ece82ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733310925495-0b0c596945bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1642912274381-251ea689337f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816746-229df9b3bd37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"tennis skirt\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -582,10 +746,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1679389518014-fad71929743c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxiYWxsZXQlMjBjb3JlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1679389666051-6931084aa278?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxiYWxsZXQlMjBjb3JlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1679389520453-f9666975ffaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxiYWxsZXQlMjBjb3JlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1679389287562-068b34541a54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxiYWxsZXQlMjBjb3JlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQyNHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1660950403832-352efcb19164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1704926273322-86addc31fbf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBjbG90aGluZyUyMHN0eWxlfGVufDB8fHx8MTc3MDAxNTc3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768460608433-d3af5148832c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1767968037382-8eb9c564339f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"ballet core fashion\" on Google Trends.",
       "season": "winter"
@@ -596,10 +760,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1634146841423-7f1fc90f8df7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjb2FzdGFsJTIwZ3JhbmRtb3RoZXIlMjBzdHlsZXxlbnwwfHx8fDE3NzAwMTAxODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1689308608670-fd85c12984b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjb2FzdGFsJTIwZ3JhbmRtb3RoZXIlMjBzdHlsZXxlbnwwfHx8fDE3NzAwMTAxODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1760106782607-edb146e37bd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjb2FzdGFsJTIwZ3JhbmRtb3RoZXIlMjBzdHlsZXxlbnwwfHx8fDE3NzAwMTAxODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1747302653747-f794d3395817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjb2FzdGFsJTIwZ3JhbmRtb3RoZXIlMjBzdHlsZXxlbnwwfHx8fDE3NzAwMTAxODV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1767469697129-576294ec8e6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768289222368-62cbdfe7d5f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768651925904-00e178219dd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1636023329674-7b7ea3c663e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"coastal grandmother style\" on Google Trends.",
       "season": "winter"
@@ -610,26 +774,12 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjYXBzdWxlJTIwd2FyZHJvYmV8ZW58MHx8fHwxNzY5OTYwMzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjYXBzdWxlJTIwd2FyZHJvYmV8ZW58MHx8fHwxNzY5OTYwMzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1567113463300-102a7eb3cb26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjYXBzdWxlJTIwd2FyZHJvYmV8ZW58MHx8fHwxNzY5OTYwMzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjYXBzdWxlJTIwd2FyZHJvYmV8ZW58MHx8fHwxNzY5OTYwMzgwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1762090275507-3281d3b85366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1756483510802-0acac24ab4e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1704775991298-38b9139fdad9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1704775988086-f899d6566a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW5zd2VhciUyMG91dGZpdCUyMHN0eWxlfGVufDB8fHx8MTc3MDAxNTc3NHww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"capsule wardrobe\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "statement earrings",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1765464281313-b3844388b316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzdGF0ZW1lbnQlMjBlYXJyaW5nc3xlbnwwfHx8fDE3Njk5NjAzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1553926297-57bb350c4f08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzdGF0ZW1lbnQlMjBlYXJyaW5nc3xlbnwwfHx8fDE3Njk5NjAzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1767210338407-54b9264c326b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzdGF0ZW1lbnQlMjBlYXJyaW5nc3xlbnwwfHx8fDE3Njk5NjAzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762762905728-955d8ec09cbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzdGF0ZW1lbnQlMjBlYXJyaW5nc3xlbnwwfHx8fDE3Njk5NjAzODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"statement earrings\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -638,10 +788,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1551028719-00167b16eac5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxsZWF0aGVyJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1602370463198-086436840055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxsZWF0aGVyJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1623854156816-4c4fc355ffc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxsZWF0aGVyJTIwamFja2V0fGVufDB8fHx8MTc2OTk2MDM3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1731911656286-92bf1ebc87f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375441-e8ded0ce3605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375456-79be292cedb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375426-880a10bea9a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"leather jacket\" on Google Trends.",
       "season": "fall"
@@ -652,10 +802,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1741941171881-40832346c7fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxkZW5pbSUyMHNraXJ0fGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1562041350-7778a082a797?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxkZW5pbSUyMHNraXJ0fGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1741942078465-d57db8d88240?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxkZW5pbSUyMHNraXJ0fGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1742476106939-17c7a7dd6b6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxkZW5pbSUyMHNraXJ0fGVufDB8fHx8MTc2OTk2MDM2Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1735553816769-7d30e5b1a19a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816645-8441289f6db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816867-88cd8496df58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816725-76d4fa5a374e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"denim skirt\" on Google Trends.",
       "season": "winter"
@@ -666,27 +816,13 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1631541909061-71e349d1f203?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxrbml0JTIwc3dlYXRlcnxlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1536992266094-82847e1fd431?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxrbml0JTIwc3dlYXRlcnxlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1633008004964-730029021e62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxrbml0JTIwc3dlYXRlcnxlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1633008004504-f5378d2f7da5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxrbml0JTIwc3dlYXRlcnxlbnwwfHx8fDE3Njk5NjAzNzl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1735553816887-95a2657d5fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816813-f7640e8e521c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532452-d8bff6d1e544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"knit sweater\" on Google Trends.",
       "season": "fall"
-    },
-    {
-      "name": "wide leg pants",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1695231081377-2765f838043d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3aWRlJTIwbGVnJTIwcGFudHN8ZW58MHx8fHwxNzY5OTYwMzcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1758543144593-95061a3f418a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3aWRlJTIwbGVnJTIwcGFudHN8ZW58MHx8fHwxNzY5OTYwMzcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762343290221-d2374e1e2e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3aWRlJTIwbGVnJTIwcGFudHN8ZW58MHx8fHwxNzY5OTYwMzcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769569611856-75e1c7084517?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3aWRlJTIwbGVnJTIwcGFudHN8ZW58MHx8fHwxNzY5OTYwMzcwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"wide leg pants\" on Google Trends.",
-      "season": "winter"
     },
     {
       "name": "midi dress",
@@ -694,26 +830,12 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1600075108097-f64b1fc12a41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtaWRpJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763637896841-cd5a1bb18208?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtaWRpJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1759992878772-e83a691a6d8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtaWRpJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1704775983177-8ae543524081?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtaWRpJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1651744258886-7987b4d3e949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532544-346cc809adb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258329-9868b90f456c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258699-d322dff9632c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"midi dress\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "trending outfits 2025",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1703192163733-be72ef568828?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx0cmVuZGluZyUyMG91dGZpdHMlMjAyMDI1fGVufDB8fHx8MTc3MDAxMDE4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1727988358509-585b6adf5f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx0cmVuZGluZyUyMG91dGZpdHMlMjAyMDI1fGVufDB8fHx8MTc3MDAxMDE4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1766348943944-5d2a89f2f643?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx0cmVuZGluZyUyMG91dGZpdHMlMjAyMDI1fGVufDB8fHx8MTc3MDAxMDE4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1703192163803-e63d896d2379?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx0cmVuZGluZyUyMG91dGZpdHMlMjAyMDI1fGVufDB8fHx8MTc3MDAxMDE4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"trending outfits 2025\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -722,26 +844,12 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1613728455120-d00493b5e77e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1572853566605-af9816b0a77a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1621341103818-01dada8c6ef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1651744258527-2cab35d47596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651743679361-201259835e44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651828855150-ba40f6870a53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651828854976-4fa163b636ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBzdHJlZXQlMjBzdHlsZSUyMGZhc2hpb258ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"minimalist fashion\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "tailored trousers",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1755151608229-f57d293f4c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx0YWlsb3JlZCUyMHRyb3VzZXJzfGVufDB8fHx8MTc3MDAxMDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1755151608097-807e5b89186a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx0YWlsb3JlZCUyMHRyb3VzZXJzfGVufDB8fHx8MTc3MDAxMDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763888647863-d6d0c7383151?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx0YWlsb3JlZCUyMHRyb3VzZXJzfGVufDB8fHx8MTc3MDAxMDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1619470148547-0adbfc64b595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx0YWlsb3JlZCUyMHRyb3VzZXJzfGVufDB8fHx8MTc3MDAxMDE3Mnww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"tailored trousers\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -750,10 +858,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxib21iZXIlMjBqYWNrZXR8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1602525582399-7ef5f604ff7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxib21iZXIlMjBqYWNrZXR8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1530862994178-a0cec9eb5388?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxib21iZXIlMjBqYWNrZXR8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1629353689974-af4d5c70440f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxib21iZXIlMjBqYWNrZXR8ZW58MHx8fHwxNzY5OTYwMzcxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1708363390847-b4af54f45273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733311245658-3bfe7f9438e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733311156460-bb9cce46b106?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733310925490-1011872200d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"bomber jacket\" on Google Trends.",
       "season": "fall"
@@ -764,12 +872,26 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1734057491918-0d51f2383712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx0cmVuY2glMjBjb2F0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1633821879282-0c4e91f96232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx0cmVuY2glMjBjb2F0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1510768216-b7e6c296e5c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx0cmVuY2glMjBjb2F0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763766276188-001c9fe1f342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx0cmVuY2glMjBjb2F0JTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE3NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1733310925430-667f8ece82ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1733310925495-0b0c596945bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1642912274381-251ea689337f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816746-229df9b3bd37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"trench coat outfit\" on Google Trends.",
+      "season": "winter"
+    },
+    {
+      "name": "satin dress",
+      "score": 0,
+      "averageInterest": 0,
+      "trendSlope": 0,
+      "images": [
+        "https://images.unsplash.com/photo-1660950403832-352efcb19164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGNsb3RoaW5nJTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1NzczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1704926273322-86addc31fbf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBjbG90aGluZyUyMHN0eWxlfGVufDB8fHx8MTc3MDAxNTc3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768460608433-d3af5148832c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1767968037382-8eb9c564339f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      ],
+      "whyTrending": "Steady search interest for \"satin dress\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -778,26 +900,26 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1762509332269-94df7a89bd28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxyaWJiZWQlMjBrbml0fGVufDB8fHx8MTc2OTk2MDM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1762741312879-001acdf2c904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxyaWJiZWQlMjBrbml0fGVufDB8fHx8MTc2OTk2MDM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1702046508143-eb68172100df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxyaWJiZWQlMjBrbml0fGVufDB8fHx8MTc2OTk2MDM4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1581672203752-b7851b1878da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxyaWJiZWQlMjBrbml0fGVufDB8fHx8MTc2OTk2MDM4MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1767469697129-576294ec8e6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768289222368-62cbdfe7d5f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1768651925904-00e178219dd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1636023329674-7b7ea3c663e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"ribbed knit\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "bucket hat",
+      "name": "pleated skirt",
       "score": 0,
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1648422204972-4278784a9863?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxidWNrZXQlMjBoYXR8ZW58MHx8fHwxNzY5OTYwMzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1593460832239-072261224f29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxidWNrZXQlMjBoYXR8ZW58MHx8fHwxNzY5OTYwMzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1679324351719-f23312611c50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxidWNrZXQlMjBoYXR8ZW58MHx8fHwxNzY5OTYwMzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1624518681328-bc59eefa1ce4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxidWNrZXQlMjBoYXR8ZW58MHx8fHwxNzY5OTYwMzYzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1762090275507-3281d3b85366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1756483510802-0acac24ab4e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1704775991298-38b9139fdad9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbnN3ZWFyJTIwb3V0Zml0JTIwc3R5bGV8ZW58MHx8fHwxNzcwMDE1Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1704775988086-f899d6566a4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW5zd2VhciUyMG91dGZpdCUyMHN0eWxlfGVufDB8fHx8MTc3MDAxNTc3NHww&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Steady search interest for \"bucket hat\" on Google Trends.",
+      "whyTrending": "Steady search interest for \"pleated skirt\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -806,10 +928,10 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1611107683227-e9060eccd846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxnb2xkJTIwamV3ZWxyeXxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1623321673989-830eff0fd59f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxnb2xkJTIwamV3ZWxyeXxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxnb2xkJTIwamV3ZWxyeXxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1617038220319-276d3cfab638?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxnb2xkJTIwamV3ZWxyeXxlbnwwfHx8fDE3Njk5NjAzNzB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1731911656286-92bf1ebc87f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375441-e8ded0ce3605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375456-79be292cedb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1739773375426-880a10bea9a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"gold jewelry\" on Google Trends.",
       "season": "winter"
@@ -820,54 +942,26 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1764983431406-9fb664f61e2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxmbGFyZSUyMHBhbnRzfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1764983431555-c5c8a2f2d7a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxmbGFyZSUyMHBhbnRzfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1583258242765-c761a05edf62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxmbGFyZSUyMHBhbnRzfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1585202912102-88a63ab0ab61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxmbGFyZSUyMHBhbnRzfGVufDB8fHx8MTc2OTk2MDM2OHww&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1735553816769-7d30e5b1a19a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816645-8441289f6db7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816867-88cd8496df58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816725-76d4fa5a374e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw4fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"flare pants\" on Google Trends.",
       "season": "winter"
     },
     {
-      "name": "cropped cardigan",
+      "name": "print mixing",
       "score": 0,
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1637562075444-8147eb3a10d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjcm9wcGVkJTIwY2FyZGlnYW58ZW58MHx8fHwxNzY5OTYwMzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1569745823883-0159f481ada3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjcm9wcGVkJTIwY2FyZGlnYW58ZW58MHx8fHwxNzY5OTYwMzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1695827163796-c26a087bd728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjcm9wcGVkJTIwY2FyZGlnYW58ZW58MHx8fHwxNzY5OTYwMzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1732054088445-0bc9e24e759d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjcm9wcGVkJTIwY2FyZGlnYW58ZW58MHx8fHwxNzY5OTYwMzgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1735553816887-95a2657d5fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw5fHx3b21lbiUyMGZhc2hpb24lMjBvdXRmaXR8ZW58MHx8fHwxNzcwMDEyNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1735553816813-f7640e8e521c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxMHx8d29tZW4lMjBmYXNoaW9uJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMjQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532474-ea4401a34a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532452-d8bff6d1e544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
-      "whyTrending": "Steady search interest for \"cropped cardigan\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "color block fashion",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1519529169550-292013768f0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxjb2xvciUyMGJsb2NrJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1682446856916-472a280a384b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxjb2xvciUyMGJsb2NrJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1619075058463-330c0c8f07de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxjb2xvciUyMGJsb2NrJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1760126119528-ef2ef6482031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxjb2xvciUyMGJsb2NrJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTAxNzd8MA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"color block fashion\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "animal print",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1552169067-2e1d47319db3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxhbmltYWwlMjBwcmludHxlbnwwfHx8fDE3Njk5NjAzNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1579828921452-bf8cbbd6168d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxhbmltYWwlMjBwcmludHxlbnwwfHx8fDE3Njk5NjAzNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1608993659377-21496a934097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxhbmltYWwlMjBwcmludHxlbnwwfHx8fDE3Njk5NjAzNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1635457011862-12f8bbb206a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxhbmltYWwlMjBwcmludHxlbnwwfHx8fDE3Njk5NjAzNzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"animal print\" on Google Trends.",
+      "whyTrending": "Steady search interest for \"print mixing\" on Google Trends.",
       "season": "winter"
     },
     {
@@ -876,110 +970,12 @@
       "averageInterest": 0,
       "trendSlope": 0,
       "images": [
-        "https://images.unsplash.com/photo-1591224615614-e300d72e37c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzdHJpcGVkJTIwc2hpcnR8ZW58MHx8fHwxNzY5OTYwMzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1570308089942-8b66def201f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzdHJpcGVkJTIwc2hpcnR8ZW58MHx8fHwxNzY5OTYwMzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1490092218187-0713ea317e21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzdHJpcGVkJTIwc2hpcnR8ZW58MHx8fHwxNzY5OTYwMzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1603984103828-0301b174469d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzdHJpcGVkJTIwc2hpcnR8ZW58MHx8fHwxNzY5OTYwMzY0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        "https://images.unsplash.com/photo-1651744258886-7987b4d3e949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651742532544-346cc809adb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258329-9868b90f456c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw1fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "https://images.unsplash.com/photo-1651744258699-d322dff9632c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw2fHx3b21lbiUyMHN0cmVldCUyMHN0eWxlJTIwZmFzaGlvbnxlbnwwfHx8fDE3NzAwMTU3NzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
       ],
       "whyTrending": "Steady search interest for \"striped shirt\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "graphic tee outfit",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1763403063428-10184adc7be3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwdGVlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE4MXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1766465524004-f1649d7d8236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxncmFwaGljJTIwdGVlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE4MXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1767661666283-b559647360e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxncmFwaGljJTIwdGVlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE4MXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1761637460743-ef6475d358ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxncmFwaGljJTIwdGVlJTIwb3V0Zml0fGVufDB8fHx8MTc3MDAxMDE4MXww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"graphic tee outfit\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "wrap dress",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1759992878336-a5dd342ea245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHx3cmFwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1759992878340-665575a0832e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHx3cmFwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1761296796745-f709cd1c1738?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHx3cmFwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1769349661389-0737f39a8507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHx3cmFwJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzc3fDA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"wrap dress\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "bodycon dress",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1765560219935-78059ba95336?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxib2R5Y29uJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765560219977-33ee2f1dfcc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxib2R5Y29uJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763750784315-e35f75ef1f2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxib2R5Y29uJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765229286618-646c4e0674f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxib2R5Y29uJTIwZHJlc3N8ZW58MHx8fHwxNzY5OTYwMzYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"bodycon dress\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "shirt dress",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1722235570835-3fe19d6bf056?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzaGlydCUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1667890786332-42c2cbd8d695?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzaGlydCUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1717127248655-ef430d29338f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzaGlydCUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1667890786367-85853fa47a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzaGlydCUyMGRyZXNzfGVufDB8fHx8MTc2OTk2MDM2NXww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"shirt dress\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "puff sleeve top",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1765365353702-cf4f189bbf21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxwdWZmJTIwc2xlZXZlJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1765269303599-f0c2f0b62172?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxwdWZmJTIwc2xlZXZlJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763637896840-9f3cb4529d01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxwdWZmJTIwc2xlZXZlJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1610902773655-a67040ead1cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxwdWZmJTIwc2xlZXZlJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4NXww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"puff sleeve top\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "square neck top",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1766830423547-b1c4aec02ca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxzcXVhcmUlMjBuZWNrJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1571112636093-123177899ace?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxzcXVhcmUlMjBuZWNrJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1599817878414-43ef36677cf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxzcXVhcmUlMjBuZWNrJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1574676180216-20e3a4663f3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxzcXVhcmUlMjBuZWNrJTIwdG9wfGVufDB8fHx8MTc2OTk2MDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"square neck top\" on Google Trends.",
-      "season": "winter"
-    },
-    {
-      "name": "halter top",
-      "score": 0,
-      "averageInterest": 0,
-      "trendSlope": 0,
-      "images": [
-        "https://images.unsplash.com/photo-1640802259860-86139bf4adf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwxfHxoYWx0ZXIlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763844073288-58c6c357a147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwyfHxoYWx0ZXIlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1767801291712-3dc2acec02a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHwzfHxoYWx0ZXIlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "https://images.unsplash.com/photo-1763844073320-6078a576d596?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NjUzNjN8MHwxfHNlYXJjaHw0fHxoYWx0ZXIlMjB0b3B8ZW58MHx8fHwxNzY5OTYwMzgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
-      ],
-      "whyTrending": "Steady search interest for \"halter top\" on Google Trends.",
       "season": "winter"
     }
   ]
