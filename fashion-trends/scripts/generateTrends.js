@@ -172,13 +172,29 @@ function fetchTrendMetrics(keyword) {
     });
 }
 
-/** Guaranteed queries — fashion-only to avoid random images. */
+/** Guaranteed queries — women's fashion only. */
 const GUARANTEED_IMAGE_QUERIES = [
   'women fashion outfit',
-  'street style fashion',
-  'fashion clothing style',
-  'womenswear outfit',
+  'women street style fashion',
+  'women clothing style',
+  'womenswear outfit style',
 ];
+
+/**
+ * Ensure every search query includes women's fashion context to avoid random/male images.
+ */
+function makeFashionQuery(query) {
+  const lower = query.toLowerCase();
+  const hasWomen = lower.includes('women') || lower.includes('woman') || lower.includes('female') || lower.includes('womenswear');
+  const hasFashion = lower.includes('fashion') || lower.includes('outfit') || lower.includes('dress') || lower.includes('clothing');
+  if (hasWomen && hasFashion) {
+    return query;
+  }
+  if (hasFashion) {
+    return `women ${query}`;
+  }
+  return `women ${query} fashion outfit`;
+}
 
 /**
  * Fetch image URLs from Unsplash Search API for a given search query.
@@ -188,7 +204,8 @@ async function fetchImagesForQuery(query, count, accessKey, retried = false) {
   if (!accessKey || accessKey === 'your_unsplash_access_key_here') {
     return [];
   }
-  const encoded = encodeURIComponent(query);
+  const fashionQuery = makeFashionQuery(query);
+  const encoded = encodeURIComponent(fashionQuery);
   const url = `https://api.unsplash.com/search/photos?query=${encoded}&per_page=${Math.min(count, 10)}&client_id=${accessKey}`;
   const res = await fetch(url, { headers: { Accept: 'application/json' } });
   if (!res.ok) {
@@ -257,7 +274,7 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
     if (urls.length > 0) return urls;
     await new Promise((r) => setTimeout(r, 200));
   }
-  urls = await fetchImagesForQuery('women fashion outfit', count, accessKey);
+  urls = await fetchImagesForQuery('women fashion outfit style', count, accessKey);
   return urls;
 }
 
