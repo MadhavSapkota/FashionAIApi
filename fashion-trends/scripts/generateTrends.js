@@ -578,7 +578,7 @@ async function main() {
 
   const payload = {
     generatedAt: new Date().toISOString(),
-    updateFrequency: '6 hours',
+    updateFrequency: '24 hours',
     trends,
     byOccasion,
   };

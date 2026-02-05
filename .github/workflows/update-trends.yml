@@ -1,7 +1,10 @@
-# Update fashion trends (no schedule — runs on push or manual)
+# Update fashion trends (runs every 24h, on push, or manual)
 name: Update trends
 
 on:
+  schedule:
+    # Run once every 24 hours at 00:00 UTC
+    - cron: '0 0 * * *'
   push:
     branches: [master, main]
   workflow_dispatch:
