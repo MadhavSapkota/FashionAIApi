@@ -73,6 +73,14 @@ const KEYWORDS = [
   'romper',
   'puff sleeve top',
   
+  // Graduation
+  'graduation dress',
+  'graduation outfit women',
+  'graduation photo outfit',
+  'graduation dress women',
+  'graduation ceremony dress',
+  'college graduation outfit',
+  
   // Marriage and Bride
   'bridal gown',
   'wedding dress bride',
@@ -227,6 +235,14 @@ const OCCASION_MAP = {
   'romper': 'birthday party',
   'puff sleeve top': 'birthday party',
   
+  // Graduation
+  'graduation dress': 'graduation',
+  'graduation outfit women': 'graduation',
+  'graduation photo outfit': 'graduation',
+  'graduation dress women': 'graduation',
+  'graduation ceremony dress': 'graduation',
+  'college graduation outfit': 'graduation',
+  
   // Marriage and Bride
   'bridal gown': 'marriage and bride',
   'wedding dress bride': 'marriage and bride',
@@ -309,6 +325,7 @@ function getOccasion(keyword) {
   if (lower.includes('brunch') || lower.includes('cafe') || lower.includes('sunday')) return 'brunch and cafes';
   if (lower.includes('festival') || lower.includes('concert') || lower.includes('boho')) return 'festivals and events';
   if (lower.includes('date') || lower.includes('night') || lower.includes('dinner')) return 'date night';
+  if (lower.includes('graduation') || lower.includes('cap and gown') || lower.includes('ceremony')) return 'graduation';
   
   return 'casual';
 }
@@ -482,6 +499,12 @@ function getFallbackSearchTerms(keyword) {
     'sparkle dress': ['sequin dress', 'party dress', 'glitter outfit'],
     'celebration outfit': ['party dress', 'birthday outfit', 'festive dress'],
     'festive party dress': ['party dress', 'sequin dress', 'celebration outfit'],
+    'graduation dress': ['graduation outfit', 'formal dress', 'white dress outfit'],
+    'graduation outfit women': ['graduation dress', 'formal dress women', 'elegant dress'],
+    'graduation photo outfit': ['graduation dress', 'formal outfit', 'white dress'],
+    'graduation dress women': ['graduation outfit', 'formal dress', 'elegant dress outfit'],
+    'graduation ceremony dress': ['graduation dress', 'formal dress', 'ceremony outfit'],
+    'college graduation outfit': ['graduation dress', 'graduation outfit', 'formal dress women'],
   };
   const w1 = keyword.split(' ')[0];
   const w2 = keyword.split(' ').slice(0, 2).join(' ');
