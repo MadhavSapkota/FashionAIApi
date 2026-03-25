@@ -46,7 +46,8 @@ class TrendClassifier:
         "party": ["party", "night", "club", "celebration", "festive"],
         "date": ["date", "romantic", "dinner", "evening"],
         "sport": ["sport", "athletic", "gym", "workout", "active"],
-        "formal_event": ["formal", "wedding", "gala", "event", "ceremony"]
+        "formal_event": ["formal", "wedding", "gala", "event", "ceremony"],
+        "graduation": ["graduation", "commencement", "cap and gown", "diploma"],
     }
     
     @staticmethod

@@ -18,4 +18,7 @@ module.exports = [
   'maxi skirt outfit',
   'blazer dress',
   'layered necklace outfit',
+  'graduation dress',
+  'graduation outfit women',
+  'white graduation dress',
 ];
