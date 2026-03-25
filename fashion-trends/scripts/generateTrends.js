@@ -42,7 +42,10 @@ const KEYWORDS = [
   'street style fashion',
   'y2k fashion',
   
-  // Date Night
+  // Date Night / Dating
+  'dating outfit women',
+  'dinner date outfit',
+  'romantic date outfit',
   'date night outfit',
   'slip dress',
   'satin dress',
@@ -67,6 +70,7 @@ const KEYWORDS = [
   'sparkle dress',
   'celebration outfit',
   'festive party dress',
+  'birthday glam outfit',
   'animal print',
   'platform shoes',
   'pearl necklace',
@@ -80,6 +84,8 @@ const KEYWORDS = [
   'graduation dress women',
   'graduation ceremony dress',
   'college graduation outfit',
+  'graduation photos outfit',
+  'white graduation dress',
   
   // Marriage and Bride
   'bridal gown',
@@ -204,7 +210,10 @@ const OCCASION_MAP = {
   'cargo skirt': 'casual',
   'cold shoulder top': 'casual',
   
-  // Date Night
+  // Date Night / Dating
+  'dating outfit women': 'date night',
+  'dinner date outfit': 'date night',
+  'romantic date outfit': 'date night',
   'date night outfit': 'date night',
   'slip dress': 'date night',
   'satin dress': 'date night',
@@ -229,6 +238,7 @@ const OCCASION_MAP = {
   'sparkle dress': 'birthday party',
   'celebration outfit': 'birthday party',
   'festive party dress': 'birthday party',
+  'birthday glam outfit': 'birthday party',
   'animal print': 'birthday party',
   'platform shoes': 'birthday party',
   'pearl necklace': 'birthday party',
@@ -242,6 +252,8 @@ const OCCASION_MAP = {
   'graduation dress women': 'graduation',
   'graduation ceremony dress': 'graduation',
   'college graduation outfit': 'graduation',
+  'graduation photos outfit': 'graduation',
+  'white graduation dress': 'graduation',
   
   // Marriage and Bride
   'bridal gown': 'marriage and bride',
@@ -324,10 +336,34 @@ function getOccasion(keyword) {
   if (lower.includes('beach') || lower.includes('vacation') || lower.includes('resort')) return 'vacation';
   if (lower.includes('brunch') || lower.includes('cafe') || lower.includes('sunday')) return 'brunch and cafes';
   if (lower.includes('festival') || lower.includes('concert') || lower.includes('boho')) return 'festivals and events';
+  if (lower.includes('dating') || lower.includes('dinner date') || lower.includes('romantic date')) return 'date night';
   if (lower.includes('date') || lower.includes('night') || lower.includes('dinner')) return 'date night';
-  if (lower.includes('graduation') || lower.includes('cap and gown') || lower.includes('ceremony')) return 'graduation';
+  if (lower.includes('graduation') || lower.includes('cap and gown')) return 'graduation';
   
   return 'casual';
+}
+
+/** Extra occasion buckets so each trend appears in multiple relevant groups (combined discovery). */
+const OCCASION_EXTRAS = {
+  'birthday party': ['casual', 'festivals and events'],
+  graduation: ['formal events', 'work and office', 'date night'],
+  'date night': ['casual', 'formal events'],
+  'marriage and bride': ['formal events', 'date night'],
+  'work and office': ['casual'],
+  'festivals and events': ['casual', 'birthday party'],
+  'formal events': ['date night'],
+  'brunch and cafes': ['casual', 'date night'],
+  vacation: ['casual', 'date night'],
+  'gym and athleisure': ['casual'],
+  casual: ['date night'],
+};
+
+function getOccasionTags(keyword) {
+  const primary = getOccasion(keyword);
+  const tags = new Set([primary]);
+  const extras = OCCASION_EXTRAS[primary];
+  if (extras) extras.forEach((t) => tags.add(t));
+  return [...tags];
 }
 
 function getSeason(keyword) {
@@ -505,6 +541,12 @@ function getFallbackSearchTerms(keyword) {
     'graduation dress women': ['graduation outfit', 'formal dress', 'elegant dress outfit'],
     'graduation ceremony dress': ['graduation dress', 'formal dress', 'ceremony outfit'],
     'college graduation outfit': ['graduation dress', 'graduation outfit', 'formal dress women'],
+    'dating outfit women': ['date night outfit', 'romantic outfit', 'women dress'],
+    'dinner date outfit': ['date night dress', 'elegant outfit', 'women fashion'],
+    'romantic date outfit': ['date night outfit', 'romantic dress', 'women fashion'],
+    'graduation photos outfit': ['graduation dress', 'formal dress', 'white dress'],
+    'white graduation dress': ['graduation dress', 'white dress formal', 'women fashion'],
+    'birthday glam outfit': ['party dress', 'glitter dress', 'birthday outfit'],
   };
   const w1 = keyword.split(' ')[0];
   const w2 = keyword.split(' ').slice(0, 2).join(' ');
@@ -581,28 +623,53 @@ async function main() {
     await new Promise((r) => setTimeout(r, 250));
   }
 
-  const trends = toOutput.map((m) => ({
-    name: m.keyword,
-    score: m.score,
-    averageInterest: m.averageInterest,
-    trendSlope: m.trendSlope,
-    images: (imagesByKeyword[m.keyword]?.length ? imagesByKeyword[m.keyword] : imagePool.slice(0, IMAGES_PER_TREND)) || [],
-    whyTrending: getWhyTrending(m.keyword, m.score),
-    season: getSeason(m.keyword),
-    occasion: getOccasion(m.keyword),
-  }));
+  const trends = toOutput.map((m) => {
+    const occasion = getOccasion(m.keyword);
+    const occasions = getOccasionTags(m.keyword);
+    return {
+      name: m.keyword,
+      score: m.score,
+      averageInterest: m.averageInterest,
+      trendSlope: m.trendSlope,
+      images: (imagesByKeyword[m.keyword]?.length ? imagesByKeyword[m.keyword] : imagePool.slice(0, IMAGES_PER_TREND)) || [],
+      whyTrending: getWhyTrending(m.keyword, m.score),
+      season: getSeason(m.keyword),
+      occasion,
+      occasions,
+    };
+  });
 
   const byOccasion = {};
   for (const t of trends) {
-    const occ = t.occasion || 'casual';
-    if (!byOccasion[occ]) byOccasion[occ] = [];
-    byOccasion[occ].push(t);
+    for (const occ of t.occasions) {
+      if (!byOccasion[occ]) byOccasion[occ] = [];
+      byOccasion[occ].push(t);
+    }
   }
+  byOccasion.all = [...trends];
+  byOccasion.dating = byOccasion['date night'] ? [...byOccasion['date night']] : [];
+
+  const occasionKeys = [
+    'all',
+    'dating',
+    'date night',
+    'birthday party',
+    'graduation',
+    'marriage and bride',
+    'work and office',
+    'casual',
+    'formal events',
+    'festivals and events',
+    'brunch and cafes',
+    'vacation',
+    'gym and athleisure',
+  ];
 
   const payload = {
     generatedAt: new Date().toISOString(),
     updateFrequency: '24 hours',
     trends,
+    occasionKeys,
     byOccasion,
   };
 
