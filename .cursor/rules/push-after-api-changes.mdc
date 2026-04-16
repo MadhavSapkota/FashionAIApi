@@ -1,0 +1,15 @@
+---
+description: After changing API-facing code, commit and push to GitHub
+globs: main.py,services/**/*.py,utils/**/*.py,node-trends-api/**/*
+alwaysApply: false
+---
+
+# Push after API changes
+
+When your edits in this session affect HTTP API behavior or response shape (FastAPI routes in `main.py`, `services/`, `utils/` used by trend endpoints, or `node-trends-api/`):
+
+1. Run `git status` and stage only the intended files.
+2. Commit with a clear message describing the API impact.
+3. Push: `git pull --rebase origin master` if needed, then `git push origin master` (use the repo’s default branch if not `master`).
+
+Skip pushing if the user asked for local-only changes or explicitly said not to push.
