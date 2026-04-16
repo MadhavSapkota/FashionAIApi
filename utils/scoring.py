@@ -2,7 +2,9 @@
 Trend Scoring Engine
 Scores trends based on engagement, recency, source credibility, etc.
 """
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
+
+from utils.recency_sort import normalized_timestamp_epoch
 from datetime import datetime, timedelta
 import math
 
@@ -159,7 +161,10 @@ class TrendScoringEngine:
                 trend["trend_score"] = 0
                 scored_trends.append(trend)
         
-        # Sort by score (descending)
-        scored_trends.sort(key=lambda x: x.get("trend_score", 0), reverse=True)
+        # Highest score first; newer content first when scores tie
+        scored_trends.sort(
+            key=lambda x: (x.get("trend_score", 0), normalized_timestamp_epoch(x)),
+            reverse=True,
+        )
         
         return scored_trends

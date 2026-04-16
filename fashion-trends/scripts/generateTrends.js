@@ -2,7 +2,8 @@
 /**
  * Fashion Trends Data Extraction Script
  * Runs in GitHub Actions every 6 hours. Fetches Google Trends + Unsplash,
- * computes averageInterest, trendSlope, score; writes data/trends.json.
+ * computes averageInterest, trendSlope, score; writes data/trends.json
+ * (trends ordered: strongest rise / “new” momentum first, then score).
  * No server, no Express — static JSON for GitHub Pages.
  */
 
@@ -162,6 +163,11 @@ const KEYWORDS = [
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const OUTPUT_FILE = path.join(DATA_DIR, 'trends.json');
+/** If true (default), prepend fresh run to prior `trends.json` entries (same `name` kept once — new wins). */
+const MERGE_PREVIOUS_TRENDS =
+  process.env.MERGE_PREVIOUS_TRENDS !== '0' && process.env.MERGE_PREVIOUS_TRENDS !== 'false';
+/** Max rows after merge (0 = unlimited). Keeps new run first; trims oldest from the tail. */
+const MERGED_TRENDS_MAX = Math.max(0, Number(process.env.MERGED_TRENDS_MAX) || 0);
 const TREND_SCORE_THRESHOLD = Number(process.env.TREND_SCORE_THRESHOLD) ?? 0;
 const IMAGES_PER_TREND = Math.min(5, Math.max(3, Number(process.env.IMAGES_PER_TREND) || 4));
 const DAYS_AGO = 90;
@@ -383,6 +389,36 @@ async function fetchImagesForKeyword(keyword, count, accessKey) {
   return urls;
 }
 
+function loadPreviousTrendsForMerge() {
+  try {
+    if (!fs.existsSync(OUTPUT_FILE)) return [];
+    const raw = fs.readFileSync(OUTPUT_FILE, 'utf8');
+    const prev = JSON.parse(raw);
+    return Array.isArray(prev.trends) ? prev.trends : [];
+  } catch (e) {
+    console.warn('Merge: could not read previous trends.json —', e.message);
+    return [];
+  }
+}
+
+/**
+ * New run first, then older rows not in this run (by `name`). Dedupes the tail by name.
+ */
+function mergeNewTrendsFirst(freshTrends, previousList) {
+  const seen = new Set(freshTrends.map((t) => t.name));
+  const carry = [];
+  for (const t of previousList) {
+    if (!t || typeof t.name !== 'string' || seen.has(t.name)) continue;
+    seen.add(t.name);
+    carry.push(t);
+  }
+  let merged = [...freshTrends, ...carry];
+  if (MERGED_TRENDS_MAX > 0 && merged.length > MERGED_TRENDS_MAX) {
+    merged = merged.slice(0, MERGED_TRENDS_MAX);
+  }
+  return { merged, carryCount: carry.length };
+}
+
 async function main() {
   const accessKey = process.env.UNSPLASH_ACCESS_KEY || '';
 
@@ -398,10 +434,15 @@ async function main() {
     }
   }
 
-  // ALWAYS output every keyword: merge Google data with full list, sort by score desc
+  // ALWAYS output every keyword: merge Google data with full list — newest momentum first
+  // (trendSlope = recent rise; then score so clients see “what’s heating up” at the top)
   const byKw = new Map(metricsList.map((m) => [m.keyword, m]));
   const toOutput = KEYWORDS.map((kw) => byKw.get(kw) || { keyword: kw, averageInterest: 0, trendSlope: 0, score: 0 })
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => {
+      const dSlope = b.trendSlope - a.trendSlope;
+      if (dSlope !== 0) return dSlope;
+      return b.score - a.score;
+    });
 
   console.log('Trends to output:', toOutput.length, '(with score > 0:', toOutput.filter((m) => m.score > 0).length, ')');
 
@@ -455,14 +496,22 @@ async function main() {
     };
   });
 
+  let trendsForPayload = trends;
+  if (MERGE_PREVIOUS_TRENDS) {
+    const previous = loadPreviousTrendsForMerge();
+    const { merged, carryCount } = mergeNewTrendsFirst(trends, previous);
+    trendsForPayload = merged;
+    console.log(`Merge: fresh ${trends.length} + carried ${carryCount} → ${merged.length} total`);
+  }
+
   const byOccasion = {};
-  for (const t of trends) {
-    for (const occ of t.occasions) {
+  for (const t of trendsForPayload) {
+    for (const occ of t.occasions || []) {
       if (!byOccasion[occ]) byOccasion[occ] = [];
       byOccasion[occ].push(t);
     }
   }
-  byOccasion.all = [...trends];
+  byOccasion.all = [...trendsForPayload];
   byOccasion.dating = byOccasion['date night'] ? [...byOccasion['date night']] : [];
 
   const occasionKeys = [
@@ -484,7 +533,7 @@ async function main() {
   const payload = {
     generatedAt: new Date().toISOString(),
     updateFrequency: '24 hours',
-    trends,
+    trends: trendsForPayload,
     occasionKeys,
     byOccasion,
     graduation: byOccasion.graduation ? [...byOccasion.graduation] : [],
@@ -492,7 +541,7 @@ async function main() {
 
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(payload, null, 2), 'utf8');
-  console.log('Wrote', OUTPUT_FILE, '—', trends.length, 'trends');
+  console.log('Wrote', OUTPUT_FILE, '—', trendsForPayload.length, 'trends');
 }
 
 main().catch((err) => {

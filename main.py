@@ -11,6 +11,7 @@ from services.instagram_service import InstagramService
 from services.facebook_service import FacebookService
 from services.pinterest_service import PinterestService
 from services.trend_processor import TrendProcessor
+from utils.recency_sort import sort_raw_platform_items
 
 # Load environment variables
 load_dotenv()
@@ -121,12 +122,12 @@ async def get_all_fashion(
         facebook_data = await facebook_service.get_trending_fashion(limit=limit)
         pinterest_data = await pinterest_service.get_trending_fashion(limit=limit)
         
-        results["google_trends"] = google_trends_data
-        results["ecommerce"] = ecommerce_data
-        results["tiktok"] = tiktok_data
-        results["instagram"] = instagram_data
-        results["facebook"] = facebook_data
-        results["pinterest"] = pinterest_data
+        results["google_trends"] = sort_raw_platform_items(google_trends_data, "google_trends")
+        results["ecommerce"] = sort_raw_platform_items(ecommerce_data, "ecommerce")
+        results["tiktok"] = sort_raw_platform_items(tiktok_data, "tiktok")
+        results["instagram"] = sort_raw_platform_items(instagram_data, "instagram")
+        results["facebook"] = sort_raw_platform_items(facebook_data, "facebook")
+        results["pinterest"] = sort_raw_platform_items(pinterest_data, "pinterest")
         
         return {
             "category": "fashion",
@@ -173,12 +174,12 @@ async def get_all_trending(
         facebook_data = await facebook_service.get_trending_fashion(limit=limit)
         pinterest_data = await pinterest_service.get_trending_fashion(limit=limit)
         
-        results["google_trends"] = google_trends_data
-        results["ecommerce"] = ecommerce_data
-        results["tiktok"] = tiktok_data
-        results["instagram"] = instagram_data
-        results["facebook"] = facebook_data
-        results["pinterest"] = pinterest_data
+        results["google_trends"] = sort_raw_platform_items(google_trends_data, "google_trends")
+        results["ecommerce"] = sort_raw_platform_items(ecommerce_data, "ecommerce")
+        results["tiktok"] = sort_raw_platform_items(tiktok_data, "tiktok")
+        results["instagram"] = sort_raw_platform_items(instagram_data, "instagram")
+        results["facebook"] = sort_raw_platform_items(facebook_data, "facebook")
+        results["pinterest"] = sort_raw_platform_items(pinterest_data, "pinterest")
         
         return {
             "platforms": ["google_trends", "ecommerce", "tiktok", "instagram", "facebook", "pinterest"],

@@ -11,6 +11,15 @@ from services.tiktok_service import TikTokService
 from services.instagram_service import InstagramService
 from services.facebook_service import FacebookService
 from services.pinterest_service import PinterestService
+from utils.recency_sort import sort_raw_platform_items
+
+
+def _sort_ingested_by_recency(ingested: Dict[str, Any]) -> Dict[str, Any]:
+    for key, value in list(ingested.items()):
+        if key == "metadata" or not isinstance(value, list):
+            continue
+        ingested[key] = sort_raw_platform_items(value, key)
+    return ingested
 
 
 class TrendIngestionLayer:
@@ -88,7 +97,7 @@ class TrendIngestionLayer:
             "filters_applied": filters
         }
         
-        return ingested_trends
+        return _sort_ingested_by_recency(ingested_trends)
     
     async def ingest_specific_sources(
         self,
@@ -136,4 +145,4 @@ class TrendIngestionLayer:
             if source in source_map:
                 ingested_trends[source] = results[i] if not isinstance(results[i], Exception) else []
         
-        return ingested_trends
+        return _sort_ingested_by_recency(ingested_trends)

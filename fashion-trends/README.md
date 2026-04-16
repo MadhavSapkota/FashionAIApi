@@ -51,7 +51,9 @@ If you want a **standalone repo** that only contains this project:
 
 ## JSON format
 
-One file with **many fashion trends** (no country split). Data from Google Trends (US) + Unsplash images.
+One file with **many fashion trends** (no country split). Data from Google Trends (US) + Unsplash images. The `trends` array is ordered with **strongest recent rise first** (`trendSlope`), then **score**, so the top entries read as the freshest momentum.
+
+**Merge with previous file (default):** each run builds a **new** list (same keywords, fresh metrics + images), writes it **first**, then appends rows from the existing `data/trends.json` whose `name` was **not** in this run (no duplicate names; new data wins). To write **only** this run with no carry-over: `MERGE_PREVIOUS_TRENDS=0 npm run generate`. Optional cap after merge: `MERGED_TRENDS_MAX=500` (keeps the head of the combined list — still new-first).
 
 ```json
 {

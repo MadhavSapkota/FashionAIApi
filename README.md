@@ -32,7 +32,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for complete architecture documentation.
 - 🔥 Fetch trending data from Facebook
 - 📸 Fetch trending posts/hashtags from Instagram
 - 🎵 Fetch trending videos from TikTok
-- 🌐 Combined endpoint to get trending data from all platforms
+- 🌐 Combined endpoints: raw per-platform data and legacy `/api/trending/all`
 - 🚀 Fast and async implementation using FastAPI
 
 ## Setup
@@ -114,12 +114,18 @@ The API will be available at `http://localhost:8000`
 ### 🎯 Main Endpoints (Recommended)
 
 - **`GET /api/fashion/trends/summary`** - **Main API endpoint** - Returns processed trends with text descriptions
-  - Query params: `limit`, `region`, `category`
+  - Query params: `limit`, `region`, `category`, `sources`
   - Example: `/api/fashion/trends/summary?limit=10&region=US`
 
 - **`GET /api/fashion/trends/processed`** - Complete processed trends with full metadata
   - Query params: `limit`, `sources`, `region`, `category`
   - Example: `/api/fashion/trends/processed?sources=instagram,tiktok&limit=20`
+
+- **`GET /trends`** - Compact trend list (same pipeline as summary, simplified response shape)
+  - Query params: `limit`, `region`
+
+- **`GET /api/fashion/all`** - One response with separate arrays per platform (not merged through the classifier)
+  - Query params: `limit`
 
 ### Individual Source Endpoints
 
@@ -166,41 +172,57 @@ This will show you which platforms are configured and using real data vs mock da
 ## Example Usage
 
 ```bash
-# Get trending from Facebook
-curl http://localhost:8000/api/facebook/trending?limit=5
+# Processed trends (recommended)
+curl "http://localhost:8000/api/fashion/trends/summary?limit=5&region=US"
 
-# Get trending from Instagram
-curl http://localhost:8000/api/instagram/trending?limit=5
+# Raw fashion data from every platform in one JSON payload
+curl "http://localhost:8000/api/fashion/all?limit=5"
 
-# Get trending from TikTok
-curl http://localhost:8000/api/tiktok/trending?limit=5&region=US
+# Per-platform samples
+curl "http://localhost:8000/api/fashion/facebook?limit=5"
+curl "http://localhost:8000/api/fashion/instagram?limit=5"
+curl "http://localhost:8000/api/fashion/tiktok?limit=5&region=US"
+curl "http://localhost:8000/api/fashion/pinterest?limit=5"
+curl "http://localhost:8000/api/fashion/google-trends?limit=5&region=US"
+curl "http://localhost:8000/api/fashion/ecommerce?limit=5"
 
-# Get trending from all platforms
-curl http://localhost:8000/api/trending/all?limit=5
+# Legacy combined path (same shape as older clients)
+curl "http://localhost:8000/api/trending/all?limit=5"
 ```
 
 ## Project Structure
 
 ```
 FashionAIApi/
-├── main.py                 # FastAPI application and routes
+├── main.py                    # FastAPI application and routes
 ├── services/
-│   ├── __init__.py
-│   ├── facebook_service.py # Facebook API integration
-│   ├── instagram_service.py # Instagram API integration
-│   └── tiktok_service.py   # TikTok API integration
-├── requirements.txt        # Python dependencies
-├── .env.example           # Environment variables template
-├── .gitignore             # Git ignore file
-└── README.md              # This file
+│   ├── trend_ingestion.py     # Pulls from all sources for the pipeline
+│   ├── trend_processor.py   # Orchestrates normalize → classify → score
+│   ├── facebook_service.py
+│   ├── instagram_service.py
+│   ├── tiktok_service.py
+│   ├── pinterest_service.py
+│   ├── google_trends_service.py
+│   └── ecommerce_service.py
+├── utils/
+│   ├── normalization.py
+│   ├── classification.py
+│   ├── scoring.py
+│   ├── trend_formatter.py
+│   └── recency_sort.py      # Newest-first ordering for feeds and tie-breaks
+├── requirements.txt
+├── .env.example
+├── ARCHITECTURE.md
+├── SETUP_GUIDE.md
+└── README.md
 ```
 
 ## Notes
 
-- The API uses async/await for better performance
-- Mock data is returned when API credentials are not configured
-- Each service can be extended with additional filtering and sorting options
-- CORS is enabled for all origins (adjust in production)
+- The API uses async/await for better performance.
+- Mock data is returned when API credentials are not configured.
+- List endpoints return **newest-first** when timestamps are available (per-platform arrays, ingestion, and Facebook post merge). Processed trends are ordered by **trend score**, with **newer items first among equal scores**.
+- CORS is enabled for all origins (adjust in production).
 
 ## License
 

@@ -3,6 +3,8 @@ import httpx
 from typing import List, Dict, Any, Optional
 from dotenv import load_dotenv
 
+from utils.recency_sort import epoch_from_raw_value
+
 load_dotenv()
 
 
@@ -133,7 +135,13 @@ class FacebookService:
                     print(f"Facebook published_posts for page {pid}: {e}")
                     continue
 
-        all_posts.sort(key=lambda x: x["engagement"], reverse=True)
+        all_posts.sort(
+            key=lambda x: (
+                epoch_from_raw_value((x.get("latest_post") or {}).get("created_time")),
+                x.get("engagement", 0),
+            ),
+            reverse=True,
+        )
         return all_posts
 
     def _engagement_from_post(self, post: Dict[str, Any]) -> Dict[str, Any]:
